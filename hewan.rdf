@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbp="http://dbpedia.org/property/"
+	xmlns:dbo="http://dbpedia.org/ontology/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:animal="https://example.org/schema/animals" >
+
+  <!-- pisces -->
+    <animal:Description rdf:about="http://dbpedia.org/resource/Shark">
+      <rdfs:name>Shark</rdfs:name>
+
+      <animal:id>1</animal:id>
+      <animal:image>
+        http://commons.wikimedia.org/wiki/Special:FilePath/TDpGUipa.jpg?width=300</animal:image>
+      <animal:comment>
+        Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on
+        the sides of the head, and pectoral fins that are not fused to the head. Modern sharks are classified within the
+        clade Selachimorpha (or Selachii) and are the sister group to the rays. However, the term "shark" has also been
+        (incorrectly) used to refer to extinct members of the subclass Elasmobranchii, which are technically outside the
+        Selachimorpha clade. Notable examples of improper classification include Cladoselache, Xenacanthus, and various
+        other members of the Chondrichthyes class like the holocephalid eugenedontidans. </animal:comment>
+      <animal:detail>
+        Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton,
+        five to seven gill slits on the sides of the head, and pectoral fins that are not fused
+        to the head. Modern sharks are classified within the clade Selachimorpha (or Selachii)
+        and are the sister group to the rays. However, the term "shark" has also been (incorrectly)
+        used to refer to extinct members of the subclass Elasmobranchii, which are technically
+        outside the Selachimorpha clade. Notable examples of improper classification include
+        Cladoselache, Xenacanthus, and various other members of the Chondrichthyes class like
+        the holocephalid eugenedontidans. Under this broader definition, the earliest known
+        sharks date back to more than 420 million years ago. Acanthodians are often referred to
+        as "spiny sharks"; though they are not part of Chondrichthyes proper, they are a
+        paraphyletic assemblage leading to cartilaginous fish as a whole. Since then, sharks have
+        diversified into over 500 species. They range in size from the small dwarf lanternshark
+        (Etmopterus perryi), a deep sea species that is only 17 centimetres (6.7 in) in length, to
+        the whale shark (Rhincodon typus), the largest fish in the world, which reaches approximately
+        12 metres (40 ft) in length. Sharks are found in all seas and are common to depths up to 2,000
+        metres (6,600 ft). They generally do not live in freshwater, although there are a few known
+        exceptions, such as the bull shark and the river shark, which can be found in both seawater and
+        freshwater. Sharks have a covering of dermal denticles that protects their skin from damage and
+        parasites in addition to improving their fluid dynamics. They have numerous sets of replaceable teeth.
+        Several species are apex predators, which are organisms that are at the top of their food chain.
+        Select examples include the tiger shark, blue shark, great white shark, mako shark, thresher shark,
+        and hammerhead shark. Sharks are caught by humans for shark meat or shark fin soup. Many shark
+        populations are threatened by human activities. Since 1970, shark populations have been reduced
+        by 71%, mostly from overfishing.
+      </animal:detail>
+
+      <animal:type>Pisces</animal:type>
+      <animal:taxon>Selachimorpha</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Chondrichthyes</animal:class>
+      <animal:order>Ground sharks, Mackerel sharks, Heterodontiformes, Hexanchiformes, Squatiniformes, Dogfish sharks,
+        Carcharhiniformes</animal:order>
+      <animal:family>Holocephali and Elasmobranchii</animal:family>
+      <animal:genus>Chondrichthyes</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Catfish">
+      <rdfs:name>Catfish</rdfs:name>
+
+      <animal:id>2</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Ameiurus_melas_by_Duane_Raver.png?width=300
+      </animal:image>
+      <animal:comment>
+        Catfish (or catfishes; order Siluriformes /sɪˈljʊərɪfɔːrmiːz/ or Nematognathi) are a diverse group of
+        ray-finned fish. Named for their prominent barbels, which resemble a cat's whiskers, catfish range in
+        size and behavior from the three largest species alive, the Mekong giant catfish from Southeast Asia,
+        the wels catfish of Eurasia, and the piraíba of South America, to detritivores (species that eat dead
+        material on the bottom), and even to a tiny parasitic species commonly called the candiru, Vandellia
+        cirrhosa. Neither the armour-plated types nor the naked types have scales. Despite their name, not all
+        catfish have prominent barbels or "whiskers". Members of the Siluriformes order are defined by features
+        of the skull and swimbladder. Catfish are of considerable commercial importance; man
+      </animal:comment>
+      <animal:detail>
+        Catfish (or catfishes; order Siluriformes /sɪˈljʊərɪfɔːrmiːz/ or Nematognathi)
+        are a diverse group of ray-finned fish. Named for their prominent barbels, which
+        resemble a cat's whiskers, catfish range in size and behavior from the three largest
+        species alive, the Mekong giant catfish from Southeast Asia, the wels catfish of
+        Eurasia, and the piraíba of South America, to detritivores (species that eat dead
+        material on the bottom), and even to a tiny parasitic species commonly called the
+        candiru, Vandellia cirrhosa. Neither the armour-plated types nor the naked types have
+        scales. Despite their name, not all catfish have prominent barbels or "whiskers".
+        Members of the Siluriformes order are defined by features of the skull and swimbladder.
+        Catfish are of considerable commercial importance; many of the larger species are farmed
+        or fished for food. Many of the smaller species, particularly the genus Corydoras, are
+        important in the aquarium hobby. Many catfish are nocturnal, but others (many
+        Auchenipteridae) are crepuscular or diurnal (most Loricariidae or Callichthyidae, for example).
+      </animal:detail>
+
+    <animal:type>Pisces</animal:type>
+      <animal:taxon>Siluriformes</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Actinopterygii</animal:class>
+      <animal:order>Siluriformes</animal:order>
+      <animal:family>Ailiidae, Akysidae, Amblycipitidae, Amphiliidae, Anchariidae, Ariidae, Aspredinidae, Astroblepidae,
+        Auchenipteridae, Austroglanididae, Bagridae, Callichthyidae, Cetopsidae, Chacidae, Clariidae ,Claroteidae,
+        Cranoglanididae, Diplomystidae,
+        Doradidae, Erethistidae, Heptapteridae, Heteropneustidae</animal:family>
+      <animal:genus>Corydoras</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Goldfish">
+      <rdfs:name>Goldfish</rdfs:name>
+
+      <animal:id>3</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Katri.jpg?width=300</animal:image>
+      <animal:comment>
+        The goldfish (Carassius auratus) is a freshwater fish in the family Cyprinidae of order Cypriniformes.
+        It is commonly kept as a pet in indoor aquariums, and is one of the most popular aquarium fish. Goldfish
+        released into the wild have become an invasive pest in parts of North America.</animal:comment>
+      <animal:detail>
+        The goldfish (Carassius auratus) is a freshwater fish in the family Cyprinidae of order
+        Cypriniformes. It is commonly kept as a pet in indoor aquariums, and is one of the most
+        popular aquarium fish. Goldfish released into the wild have become an invasive pest in
+        parts of North America. Native to East Asia, the goldfish is a relatively small member of
+        the carp family (which also includes the Prussian carp and the crucian carp). It was
+        first selectively bred for color in imperial China more than 1,000 years ago, and several
+        distinct breeds have since been developed. Goldfish breeds vary greatly in size, body shape,
+        fin configuration, and coloration (various combinations of white, yellow, orange, red, brown,
+        and black are known).
+      </animal:detail>
+
+<animal:type>Pisces</animal:type>
+      <animal:taxon>Carassius auratus, Carassius auratus auratus</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Actinopterygii</animal:class>
+      <animal:order>Cypriniformes</animal:order>
+      <animal:family> Cyprinidae</animal:family>
+      <animal:genus>Carassius</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Stingray">
+      <rdfs:name>Stingray</rdfs:name>
+
+      <animal:id>4</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/SStringray.jpg?width=300</animal:image>
+      <animal:comment>
+        Stingrays are a group of sea rays, which are cartilaginous fish related to sharks. They are classified in the
+        suborder Myliobatoidei of the order Myliobatiformes and consist of eight families: Hexatrygonidae (sixgill
+        stingray), Plesiobatidae (deepwater stingray), Urolophidae (stingarees), Urotrygonidae (round rays), Dasyatidae
+        (whiptail stingrays), Potamotrygonidae (river stingrays), Gymnuridae (butterfly rays) and Myliobatidae (eagle
+        rays).There are about 220 known stingray species organized into 29 genera. </animal:comment>
+      <animal:detail>
+        Stingrays are a group of sea rays, which are cartilaginous fish related to sharks.
+        They are classified in the suborder Myliobatoidei of the order Myliobatiformes and
+        consist of eight families: Hexatrygonidae (sixgill stingray), Plesiobatidae (deepwater
+        stingray), Urolophidae (stingarees), Urotrygonidae (round rays), Dasyatidae (whiptail
+        stingrays), Potamotrygonidae (river stingrays), Gymnuridae (butterfly rays) and Myliobatidae
+        (eagle rays).There are about 220 known stingray species organized into 29 genera. Stingrays
+        are common in coastal tropical and subtropical marine waters throughout the world. Some
+        species, such as the thorntail stingray (Dasyatis thetidis), are found in warmer temperate
+        oceans and others, such as the deepwater stingray (Plesiobatis daviesi), are found in the
+        deep ocean. The river stingrays and a number of whiptail stingrays (such as the Niger stingray
+        (Fontitrygon garouaensis)) are restricted to fresh water. Most myliobatoids are demersal
+        (inhabiting the next-to-lowest zone in the water column), but some, such as the pelagic stingray
+        and the eagle rays, are pelagic. Stingray species are progressively becoming threatened or
+        vulnerable to extinction, particularly as the consequence of unregulated fishing. As of 2013,
+        45 species have been listed as vulnerable or endangered by the IUCN. The status of some other
+        species is poorly known, leading to their being listed as data deficient.
+      </animal:detail>
+
+<animal:type>Pisces</animal:type>
+      <animal:taxon>Myliobatoidei</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Chondrichthyes</animal:class>
+      <animal:order>Myliobatiformes</animal:order>
+      <animal:family>Hexatrygonidae, Plesiobatidae, Urolophidae, Urotrygonidae, Dasyatidae, Potamotrygonidae,
+        Gymnuridae, Myliobatidae</animal:family>
+      <animal:genus>Hypanus Rafinesque, (Dasyatidae, Myliobatiformes)</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Clownfish">
+      <rdfs:name>Clownfish</rdfs:name>
+
+      <animal:id>5</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Amphiprion_ocellaris_(Clown_anemonefish)_by_Nick_Hobgood.jpg?width=300</animal:image>
+      <animal:comment>
+        Clownfish or anemonefish are fishes from the subfamily Amphiprioninae in the family Pomacentridae. Thirty
+        species of clownfish are recognized: one in the genus Premnas, while the remaining are in the genus Amphiprion.
+        In the wild, they all form symbiotic mutualisms with sea anemones. Depending on the species, anemonefish are
+        overall yellow, orange, or a reddish or blackish color, and many show white bars or patches. The largest can
+        reach a length of 17 cm (6+1⁄2 in), while the smallest barely achieve 7–8 cm (2+3⁄4–3+1⁄4 in). </animal:comment>
+      <animal:detail>
+        Clownfish or anemonefish are fishes from the subfamily Amphiprioninae in the
+        family Pomacentridae. Thirty species of clownfish are recognized: one in the
+        genus Premnas, while the remaining are in the genus Amphiprion. In the wild,
+        they all form symbiotic mutualisms with sea anemones. Depending on the species,
+        anemonefish are overall yellow, orange, or a reddish or blackish color, and
+        many show white bars or patches. The largest can reach a length of 17 cm
+        (6+1⁄2 in), while the smallest barely achieve 7–8 cm (2+3⁄4–3+1⁄4 in).
+      </animal:detail>
+
+<animal:type>Pisces</animal:type>
+      <animal:taxon>Amphiprioninae</animal:taxon>
+      <animal:phylum> Chordata</animal:phylum>
+      <animal:class>Actinopterygii</animal:class>
+      <animal:order>Perciformes</animal:order>
+      <animal:family>Pomacentridae</animal:family>
+      <animal:genus>Amphiprion</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Koi">
+      <rdfs:name>Koi fish</rdfs:name>
+
+      <animal:id>6</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Ojiya_Nishikigoi_no_Sato_ac_(3).jpg?width=300
+      </animal:image>
+      <animal:comment>
+        Koi (鯉, English: /ˈkɔɪ/, Japanese: [koꜜi]) or more specifically nishikigoi (錦鯉, Japanese: [ɲiɕi̥kiꜜɡoi],
+        literally "brocaded carp"), are colored varieties of the Amur carp (Cyprinus rubrofuscus) that are kept for
+        decorative purposes in outdoor koi ponds or water gardens. </animal:comment>
+      <animal:detail>
+        Koi (鯉, English: /ˈkɔɪ/, Japanese: [koꜜi]) or more specifically nishikigoi
+        (錦鯉, Japanese: [ɲiɕi̥kiꜜɡoi], literally "brocaded carp"), are colored varieties
+        of the Amur carp (Cyprinus rubrofuscus) that are kept for decorative purposes
+        in outdoor koi ponds or water gardens. Koi is an informal name for the colored
+        variants of C. rubrofuscus kept for ornamental purposes. There are many varieties
+        of ornamental koi, originating from breeding that began in Niigata, Japan in the
+        early 19th century. Several varieties are recognized by the Japanese, distinguished
+        by coloration, patterning, and scalation. Some of the major colors are white, black,
+        red, orange, yellow, blue, brown and cream, besides metallic shades like gold and
+        silver-white ('platinum') scales. The most popular category of koi is the Gosanke,
+        which is made up of the Kōhaku, Taishō Sanshoku and Shōwa Sanshoku varieties.
+      </animal:detail>
+
+<animal:type>Pisces</animal:type>
+      <animal:taxon>Carp</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Actinopterygii</animal:class>
+      <animal:order>Cypriniformes</animal:order>
+      <animal:family>Cyprinidae</animal:family>
+      <animal:genus>Cyprinus</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Tuna">
+      <rdfs:name>Tuna</rdfs:name>
+
+      <animal:id>7</animal:id>
+      <animal:image>
+        http://commons.wikimedia.org/wiki/Special:FilePath/tuna_assortment.png?width=300</animal:image>
+      <animal:comment>
+        A tuna is a saltwater fish that belongs to the tribe Thunnini, a subgrouping of the Scombridae (mackerel)
+        family. The Thunnini comprise 15 species across five genera, the sizes of which vary greatly, ranging from the
+        bullet tuna (max length: 50 cm or 1.6 ft, weight: 1.8 kg or 4 lb) up to the Atlantic bluefin tuna (max length:
+        4.6 m or 15 ft, weight: 684 kg or 1,508 lb), which averages 2 m (6.6 ft) and is believed to live up to 50 years.
+      </animal:comment>
+      <animal:detail>
+        A tuna is a saltwater fish that belongs to the tribe Thunnini, a subgrouping of the Scombridae
+        (mackerel) family. The Thunnini comprise 15 species across five genera, the sizes of which vary
+        greatly, ranging from the bullet tuna (max length: 50 cm or 1.6 ft, weight: 1.8 kg or 4 lb) up
+        to the Atlantic bluefin tuna (max length: 4.6 m or 15 ft, weight: 684 kg or 1,508 lb), which
+        averages 2 m (6.6 ft) and is believed to live up to 50 years. Tuna, opah and mackerel sharks are
+        the only species of fish that can maintain a body temperature higher than that of the surrounding
+        water. An active and agile predator, the tuna has a sleek, streamlined body, and is among the
+        fastest-swimming pelagic fish – the yellowfin tuna, for example, is capable of speeds of up to
+        75 km/h (47 mph). Greatly inflated speeds can be found in early scientific reports and are still
+        widely reported in the popular literature. Found in warm seas, the tuna is commercially fished
+        extensively as a food fish, and is popular as a game fish. As a result of overfishing, some tuna
+        species, such as the southern bluefin tuna, are threatened with extinction.
+      </animal:detail>
+
+<animal:type>Pisces</animal:type>
+      <animal:taxon>Chordata</animal:taxon>
+      <animal:phylum>Vertebrata</animal:phylum>
+      <animal:class>Actinopterygii</animal:class>
+      <animal:order>Perciformes</animal:order>
+      <animal:family></animal:family>
+      <animal:genus></animal:genus>
+    </animal:Description>
+
+  <!-- Aves -->   
+  <animal:Description rdf:about="http://dbpedia.org/resource/Bird">
+      <rdfs:name>Bird</rdfs:name>
+
+      <animal:id>8</animal:id>
+
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Bird_Diversity_2013.png?width=300</animal:image>
+      <animal:comment>Birds are a group of warm-blooded vertebrates constituting the class Aves (/ˈeɪviːz/),
+        characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a
+        four-chambered heart, and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5.5
+        cm (2.2 in) bee hummingbird to the 2.8 m (9 ft 2 in) ostrich. There are about ten thousand living species, more
+        than half of which are passerine, or "perching" birds. Birds have wings whose development varies according to
+        species; the only known groups without wings are the extinct moa and elephant birds. Wings, which are modified
+        forelimbs, gave birds the ability to fly, although further evolution has led to the loss of flight in some
+        birds, including ratites, penguins, and diverse ende</animal:comment>
+      <animal:detail>
+        Birds are a group of warm-blooded vertebrates constituting the class Aves (/ˈeɪviːz/), characterised by
+        feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart,
+        and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5.5 cm (2.2 in) bee
+        hummingbird to the 2.8 m (9 ft 2 in) ostrich. There are about ten thousand living species, more than half of
+        which are passerine, or "perching" birds. Birds have wings whose development varies according to species; the
+        only known groups without wings are the extinct moa and elephant birds. Wings, which are modified forelimbs,
+        gave birds the ability to fly, although further evolution has led to the loss of flight in some birds, including
+        ratites, penguins, and diverse endemic island species. The digestive and respiratory systems of birds are also
+        uniquely adapted for flight. Some bird species of aquatic environments, particularly seabirds and some
+        waterbirds, have further evolved for swimming. Birds are feathered theropod dinosaurs and constitute the only
+        known living dinosaurs. Likewise, birds are considered reptiles in the modern cladistic sense of the term, and
+        their closest living relatives are the crocodilians. Birds are descendants of the primitive avialans (whose
+        members include Archaeopteryx) which first appeared about 160 million years ago (mya) in China. According to DNA
+        evidence, modern birds (Neornithes) evolved in the Middle to Late Cretaceous, and diversified dramatically
+        around the time of the Cretaceous–Paleogene extinction event 66 mya, which killed off the pterosaurs and all
+        non-avian dinosaurs. Many social species pass on knowledge across generations, which is considered a form of
+        culture. Birds are social, communicating with visual signals, calls, and songs, and participating in such
+        behaviours as cooperative breeding and hunting, flocking, and mobbing of predators. The vast majority of bird
+        species are socially (but not necessarily sexually) monogamous, usually for one breeding season at a time,
+        sometimes for years, and rarely for life. Other species have breeding systems that are polygynous (one male with
+        many females) or, rarely, polyandrous (one female with many males). Birds produce offspring by laying eggs which
+        are fertilised through sexual reproduction. They are usually laid in a nest and incubated by the parents. Most
+        birds have an extended period of parental care after hatching. Many species of birds are economically important
+        as food for human consumption and raw material in manufacturing, with domesticated and undomesticated birds
+        being important sources of eggs, meat, and feathers. Songbirds, parrots, and other species are popular as pets.
+        Guano (bird excrement) is harvested for use as a fertiliser. Birds figure throughout human culture. About 120 to
+        130 species have become extinct due to human activity since the 17th century, and hundreds more before then.
+        Human activity threatens about 1,200 bird species with extinction, though efforts are underway to protect them.
+        Recreational birdwatching is an important part of the ecotourism industry. (
+      </animal:detail>
+
+<animal:type>Aves</animal:type>
+      <animal:type>Aves</animal:type>
+      <animal:taxon>Aves</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Aves</animal:class>
+      <animal:order>Passeriformes, Saurischia, Ciconiiformes</animal:order>
+      <animal:family>Accipitridae</animal:family>
+      <animal:genus>Haliaeetus</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Chicken">
+      <rdfs:name>Chicken</rdfs:name>
+
+      <animal:id>9</animal:id>
+      <animal:image>
+        http://commons.wikimedia.org/wiki/Special:FilePath/Male_and_female_chicken_sitting_together.jpg?width=300
+      </animal:image>
+      <animal:comment>The chicken (Gallus gallus domesticus) is a domesticated junglefowl species, with attributes 
+      of wild species such as the grey and the Ceylon junglefowl that are originally from Southeastern Asia. Rooster 
+      or cock is a term for an adult male bird, and a younger male may be called a cockerel. A male that has been 
+      castrated is a capon. An adult female bird is called a hen and a sexually immature female is called a pullet. 
+      Humans now keep chickens primarily as a source of food (consuming both their meat and eggs) and as pets. Traditionally 
+      they were also bred for cockfighting, which is still practiced in some places. </animal:comment>
+      <animal:detail>
+        The chicken (Gallus gallus domesticus) is a domesticated junglefowl species, with attributes of wild species
+        such as the grey and the Ceylon junglefowl that are originally from Southeastern Asia. Rooster or cock is a term
+        for an adult male bird, and a younger male may be called a cockerel. A male that has been castrated is a capon.
+        An adult female bird is called a hen and a sexually immature female is called a pullet. Humans now keep chickens
+        primarily as a source of food (consuming both their meat and eggs) and as pets. Traditionally they were also
+        bred for cockfighting, which is still practiced in some places. Chickens are one of the most common and
+        widespread domestic animals, with a total population of 23.7 billion as of 2018, up from more than 19 billion in
+        2011. There are more chickens in the world than any other bird. There are numerous cultural references to
+        chickens – in myth, folklore and religion, and in language and literature. Genetic studies have pointed to
+        multiple maternal origin theories of within South Asia, Southeast Asia, and East Asia, but the clade found in
+        the Americas, Europe, the Middle East and Africa originated from the Indian subcontinent. From ancient India,
+        the chicken spread to the Eastern Mediterranean. They appear in Egypt in the mid-15th century BC, with the "bird
+        that gives birth every day" having come from the land between Syria and Shinar, Babylonia, according to the
+        annals of Thutmose III. They are known in Greece from the 5th century BC. In 2011 a study in genetic and
+        archaeological evidence conclude that the origin of the modern-day chicken is from Southeast Asia.
+      </animal:detail>
+
+      <animal:type>Aves</animal:type>
+      <animal:taxon>Gallus gallus</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Aves</animal:class>
+      <animal:order>Galliformes</animal:order>
+      <animal:family>Phasianidae</animal:family>
+      <animal:genus>Gallus</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Goose">
+      <rdfs:name>Goose</rdfs:name>
+
+      <animal:id>10</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Anser_anser_1_(Piotr_Kuczynski).jpg?width=300
+      </animal:image>
+      <animal:comment>A goose (PL: geese) is a bird of any of several waterfowl species in the family Anatidae. This
+        group comprises the genera Anser (the grey geese and white geese) and Branta (the black geese). Some other
+        birds, mostly related to the shelducks, have "goose" as part of their names. More distantly related members of
+        the family Anatidae are swans, most of which are larger than true geese, and ducks, which are smaller.
+      </animal:comment>
+      <animal:detail>
+        A goose (PL: geese) is a bird of any of several waterfowl species in the family Anatidae. This group comprises
+        the genera Anser (the grey geese and white geese) and Branta (the black geese). Some other birds, mostly related
+        to the shelducks, have "goose" as part of their names. More distantly related members of the family Anatidae are
+        swans, most of which are larger than true geese, and ducks, which are smaller. The term "goose" may refer to
+        either a male or female bird, but when paired with "gander", refers specifically to a female one (the latter
+        referring to a male). Young birds before fledging are called goslings. The collective noun for a group of geese
+        on the ground is a gaggle; when in flight, they are called a skein, a team, or a wedge; when flying close
+        together, they are called a plump.
+      </animal:detail>
+
+      <animal:type>Aves</animal:type>
+      <animal:taxon>Anser (the grey geese and white geese) and Branta (the black geese)</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Aves</animal:class>
+      <animal:order>Anseriformes</animal:order>
+      <animal:family>Anseranatidae</animal:family>
+      <animal:genus>Anseranas</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Duck">
+      <rdfs:name>Duck</rdfs:name>
+
+      <animal:id>11</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Bucephala-albeola-010.jpg?width=300
+      </animal:image>
+      <animal:comment>Duck is the common name for numerous species of waterfowl in the family Anatidae. Ducks are
+        generally smaller and shorter-necked than swans and geese, which are members of the same family. Divided among
+        several subfamilies, they are a form taxon; they do not represent a monophyletic group (the group of all
+        descendants of a single common ancestral species), since swans and geese are not considered ducks. Ducks are
+        mostly aquatic birds, and may be found in both fresh water and sea water. </animal:comment>
+      <animal:detail>
+        Duck is the common name for numerous species of waterfowl in the family Anatidae. Ducks are generally smaller
+        and shorter-necked than swans and geese, which are members of the same family. Divided among several
+        subfamilies, they are a form taxon; they do not represent a monophyletic group (the group of all descendants of
+        a single common ancestral species), since swans and geese are not considered ducks. Ducks are mostly aquatic
+        birds, and may be found in both fresh water and sea water. Ducks are sometimes confused with several types of
+        unrelated water birds with similar forms, such as loons or divers, grebes, gallinules and coots.
+      </animal:detail>
+
+      <animal:type>Aves</animal:type>
+      <animal:taxon>Anatidae</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Aves</animal:class>
+      <animal:order>Anseriformes</animal:order>
+      <animal:family>Anatidae</animal:family>
+      <animal:genus>Anas</animal:genus>
+    </animal:Description>
+
+  <!-- mamals -->
+    <animal:Description rdf:about="http://dbpedia.org/resource/Dog">
+      <rdfs:name>Dog</rdfs:name>
+
+      <animal:id>12</animal:id>
+      <animal:image>
+        http://commons.wikimedia.org/wiki/Special:FilePath/Blue_merle_koolie_short_coat_heading_sheep.jpg?width=300
+      </animal:image>
+      <animal:comment>Spiders (order Araneae) are air-breathing arthropods that have eight legs, chelicerae with fangs
+        generally able to inject venom, and spinnerets that extrude silk. They are the largest order of arachnids and
+        rank seventh in total species diversity among all orders of organisms. Spiders are found worldwide on every
+        continent except for Antarctica, and have become established in nearly every land habitat. As of August 2022,
+        50,356 spider species in 132 families have been recorded by taxonomists. However, there has been debate among
+        scientists about how families should be classified, with over 20 different classifications proposed since 1900.
+      </animal:comment>
+      <animal:detail>
+        The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the wolf. Also called the
+        domestic dog, it is derived from the extinct Pleistocene wolf, and the modern wolf is the dog's nearest living
+        relative. Dogs were the first species to be domesticated by hunter-gatherers over 15,000 years ago before the
+        development of agriculture. Due to their long association with humans, dogs have expanded to a large number of
+        domestic individuals and gained the ability to thrive on a starch-rich diet that would be inadequate for other
+        canids. The dog has been selectively bred over millennia for various behaviors, sensory capabilities, and
+        physical attributes. Dog breeds vary widely in shape, size, and color. They perform many roles for humans, such
+        as hunting, herding, pulling loads, protection, assisting police and the military, companionship, therapy, and
+        aiding disabled people. Over the millennia, dogs became uniquely adapted to human behavior, and the human-canine
+        bond has been a topic of frequent study. This influence on human society has given them the sobriquet of "man's
+        best friend".
+      </animal:detail>
+
+<animal:type>Mamals</animal:type>
+      <animal:taxon>Canis</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Mammalia</animal:class>
+      <animal:order>Carnivora</animal:order>
+      <animal:family> Canidae</animal:family>
+      <animal:genus>Canis</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Cat">
+      <rdfs:name>Cat</rdfs:name>
+
+      <animal:id>13</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Cat_August_2010-4.jpg?width=300</animal:image>
+      <animal:comment>The cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only
+        domesticated species in the family Felidae and is commonly referred to as the domestic cat or house cat to
+        distinguish it from the wild members of the family. Cats are commonly kept as house pets but can also be farm
+        cats or feral cats; the feral cat ranges freely and avoids human contact. Domestic cats are valued by humans for
+        companionship and their ability to kill rodents. About 60 cat breeds are recognized by various cat registries.
+      </animal:comment>
+      <animal:detail>
+        The cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in
+        the family Felidae and is commonly referred to as the domestic cat or house cat to distinguish it from the wild
+        members of the family. Cats are commonly kept as house pets but can also be farm cats or feral cats; the feral
+        cat ranges freely and avoids human contact. Domestic cats are valued by humans for companionship and their
+        ability to kill rodents. About 60 cat breeds are recognized by various cat registries. The cat is similar in
+        anatomy to the other felid species: it has a strong flexible body, quick reflexes, sharp teeth, and retractable
+        claws adapted to killing small prey. Its night vision and sense of smell are well developed. Cat communication
+        includes vocalizations like meowing, purring, trilling, hissing, growling, and grunting as well as cat-specific
+        body language. Although the cat is a social species, it is a solitary hunter. As a predator, it is crepuscular,
+        i.e. most active at dawn and dusk. It can hear sounds too faint or too high in frequency for human ears, such as
+        those made by mice and other small mammals. It also secretes and perceives pheromones. Female domestic cats can
+        have kittens from spring to late autumn, with litter sizes often ranging from two to five kittens. Domestic cats
+        are bred and shown at events as registered pedigreed cats, a hobby known as cat fancy. Population control of
+        cats may be effected by spaying and neutering, but their proliferation and the abandonment of pets has resulted
+        in large numbers of feral cats worldwide, contributing to the extinction of entire bird, mammal, and reptile
+        species. It was long thought that cat domestication began in ancient Egypt, where cats were venerated from
+        around 3100 BC, but recent advances in archaeology and genetics have shown that their domestication occurred in
+        Western Asia around 7500 BC. As of 2021, there were an estimated 220 million owned and 480 million stray cats in
+        the world. As of 2017, the domestic cat was the second most popular pet in the United States, with 95.6 million
+        cats owned and around 42 million households owning at least one cat. In the United Kingdom, 26% of adults have a
+        cat, with an estimated population of 10.9 million pet cats as of 2020.
+      </animal:detail>
+
+      <animal:type>Mamals</animal:type>
+      <animal:taxon>Felis catus</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Mammalia</animal:class>
+      <animal:order>Carnivora</animal:order>
+      <animal:family>Felidae</animal:family>
+      <animal:genus>Felis</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Elephant">
+      <rdfs:name>Elephant</rdfs:name>
+
+      <animal:id>14</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Elephant_Diversity.jpg?width=300</animal:image>
+      <animal:comment>Elephants are the largest existing land animals. Three living species are currently recognised:
+        the African bush elephant, the African forest elephant, and the Asian elephant. They are the only surviving
+        members of the family Elephantidae and the order Proboscidea. The order was formerly much more diverse during
+        the Pleistocene, but most species became extinct during the Late Pleistocene epoch. Distinctive features of
+        elephants include a long proboscis called a trunk, tusks, large ear flaps, pillar-like legs, and tough but
+        sensitive skin. The trunk is used for breathing, bringing food and water to the mouth, and grasping objects.
+        Tusks, which are derived from the incisor teeth, serve both as weapons and as tools for moving objects and
+        digging. The large ear flaps assist in maintaining a co</animal:comment>
+      <animal:detail>
+        Elephants are the largest existing land animals. Three living species are currently recognised: the African bush
+        elephant, the African forest elephant, and the Asian elephant. They are the only surviving members of the family
+        Elephantidae and the order Proboscidea. The order was formerly much more diverse during the Pleistocene, but
+        most species became extinct during the Late Pleistocene epoch. Distinctive features of elephants include a long
+        proboscis called a trunk, tusks, large ear flaps, pillar-like legs, and tough but sensitive skin. The trunk is
+        used for breathing, bringing food and water to the mouth, and grasping objects. Tusks, which are derived from
+        the incisor teeth, serve both as weapons and as tools for moving objects and digging. The large ear flaps assist
+        in maintaining a constant body temperature as well as in communication. African elephants have larger ears and
+        concave backs, whereas Asian elephants have smaller ears, and convex or level backs. Elephants are scattered
+        throughout sub-Saharan Africa, South Asia, and Southeast Asia and are found in different habitats, including
+        savannahs, forests, deserts, and marshes. They are herbivorous, and they stay near water when it is accessible.
+        They are considered to be keystone species, due to their impact on their environments. Elephants have a
+        fission–fusion society, in which multiple family groups come together to socialise. Females (cows) tend to live
+        in family groups, which can consist of one female with her calves or several related females with offspring. The
+        groups, which do not include bulls, are usually led by the oldest cow, known as the matriarch. Males (bulls)
+        leave their family groups when they reach puberty and may live alone or with other males. Adult bulls mostly
+        interact with family groups when looking for a mate. They enter a state of increased testosterone and aggression
+        known as musth, which helps them gain dominance over other males as well as reproductive success. Calves are the
+        centre of attention in their family groups and rely on their mothers for as long as three years. Elephants can
+        live up to 70 years in the wild. They communicate by touch, sight, smell, and sound; elephants use infrasound
+        and seismic communication over long distances. Elephant intelligence has been compared with that of primates and
+        cetaceans. They appear to have self-awareness, and appear to show empathy for dying and dead family members.
+        African bush elephants and Asian elephants are listed as endangered and African forest elephants as Critically
+        Endangered by the International Union for Conservation of Nature (IUCN). One of the biggest threats to elephant
+        populations is the ivory trade, as the animals are poached for their ivory tusks. Other threats to wild
+        elephants include habitat destruction and conflicts with local people. Elephants are used as working animals in
+        Asia. In the past, they were used in war; today, they are often controversially put on display in zoos, or
+        exploited for entertainment in circuses. Elephants are highly recognisable and have been featured in art,
+        folklore, religion, literature, and popular culture. cat (Felis catus) is a domestic species of small
+        carnivorous mammal. It is the only domesticated species in the family Felidae and is commonly referred to as the
+        domestic cat or house cat to distinguish it from the wild members of the family. Cats are commonly kept as house
+        pets but can also be farm cats or feral cats; the feral cat ranges freely and avoids human contact. Domestic
+        cats are valued by humans for companionship and their ability to kill rodents. About 60 cat breeds are
+        recognized by various cat registries. The cat is similar in anatomy to the other felid species: it has a strong
+        flexible body, quick reflexes, sharp teeth, and retractable claws adapted to killing small prey. Its night
+        vision and sense of smell are well developed. Cat communication includes vocalizations like meowing, purring,
+        trilling, hissing, growling, and grunting as well as cat-specific body language. Although the cat is a social
+        species, it is a solitary hunter. As a predator, it is crepuscular, i.e. most active at dawn and dusk. It can
+        hear sounds too faint or too high in frequency for human ears, such as those made by mice and other small
+        mammals. It also secretes and perceives pheromones. Female domestic cats can have kittens from spring to late
+        autumn, with litter sizes often ranging from two to five kittens. Domestic cats are bred and shown at events as
+        registered pedigreed cats, a hobby known as cat fancy. Population control of cats may be effected by spaying and
+        neutering, but their proliferation and the abandonment of pets has resulted in large numbers of feral cats
+        worldwide, contributing to the extinction of entire bird, mammal, and reptile species. It was long thought that
+        cat domestication began in ancient Egypt, where cats were venerated from around 3100 BC, but recent advances in
+        archaeology and genetics have shown that their domestication occurred in Western Asia around 7500 BC. As of
+        2021, there were an estimated 220 million owned and 480 million stray cats in the world. As of 2017, the
+        domestic cat was the second most popular pet in the United States, with 95.6 million cats owned and around 42
+        million households owning at least one cat. In the United Kingdom, 26% of adults have a cat, with an estimated
+        population of 10.9 million pet cats as of 2020.
+      </animal:detail>
+
+      <animal:type>Mamals</animal:type>
+      <animal:taxon>Elephantidae</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Mammalia</animal:class>
+      <animal:order>Proboscidea</animal:order>
+      <animal:family> Elephantidae</animal:family>
+      <animal:genus>Loxodonta and Elephas</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Kangaroo">
+      <rdfs:name>Kangaroo</rdfs:name>
+
+      <animal:id>15</animal:id>
+      <animal:image></animal:image>
+      <animal:comment>Kangaroos are four marsupials from the family Macropodidae (macropods, meaning "large foot"). In
+        common use the term is used to describe the largest species from this family, the red kangaroo, as well as the
+        antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo. Kangaroos are indigenous to Australia and
+        New Guinea. The Australian government estimates that 42.8 million kangaroos lived within the commercial harvest
+        areas of Australia in 2019, down from 53.2 million in 2013.</animal:comment>
+      <animal:detail>
+        Kangaroos are four marsupials from the family Macropodidae (macropods, meaning "large foot"). In common use the
+        term is used to describe the largest species from this family, the red kangaroo, as well as the antilopine
+        kangaroo, eastern grey kangaroo, and western grey kangaroo. Kangaroos are indigenous to Australia and New
+        Guinea. The Australian government estimates that 42.8 million kangaroos lived within the commercial harvest
+        areas of Australia in 2019, down from 53.2 million in 2013. As with the terms "wallaroo" and "wallaby",
+        "kangaroo" refers to a paraphyletic grouping of species. All three terms refer to members of the same taxonomic
+        family, Macropodidae, and are distinguished according to size. The largest species in the family are called
+        "kangaroos" and the smallest are generally called "wallabies". The term "wallaroos" refers to species of an
+        intermediate size. There are also the tree-kangaroos, another type of macropod, which inhabit the tropical
+        rainforests of New Guinea, far northeastern Queensland and some of the islands in the region. This kind of
+        kangaroo lives in the upper branches of trees. A general idea of the relative size of these informal terms could
+        be: * wallabies: head and body length of 45–105 cm and tail length of 33–75 cm; the dwarf wallaby (the smallest
+        of all known macropod species) is 46 cm long and weighs 1.6 kg; * tree-kangaroos: ranging from Lumholtz's
+        tree-kangaroo: body and head length of 48–65 cm, tail of 60–74 cm, weight of 7.2 kg (16 lb) for males and 5.9 kg
+        (13 lb) for females; to the grizzled tree-kangaroo: length of 75–90 cm (30 to 35 in) and weight of 8–15 kg
+        (18–33 lb); * wallaroos: the black wallaroo (the smaller of the two species) with a tail length of 60–70 cm and
+        weight of 19–22 kg (41.8–48.5 lb) for males and 13 kg (28.6 lb) for females; * kangaroos: a large male can be 2
+        m (6 ft 7 in) tall and weigh 90 kg (200 lb). Kangaroos have large, powerful hind legs, large feet adapted for
+        leaping, a long muscular tail for balance, and a small head. Like most marsupials, female kangaroos have a pouch
+        called a marsupium in which joeys complete postnatal development. Because of its grazing habits, the kangaroo
+        has developed specialized teeth that are rare among mammals. </animal:detail>
+
+      <animal:type>Mamals</animal:type>
+      <animal:taxon>Macropodidae</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Mammalia</animal:class>
+      <animal:order>Diprotodontia</animal:order>
+      <animal:family>Macropodidae</animal:family>
+      <animal:genus>Macropus</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Giraffe">
+      <rdfs:name>Giraffe</rdfs:name>
+
+      <animal:id>16</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Giraffe_Mikumi_National_Park.jpg?width=300
+      </animal:image>
+      <animal:comment>The giraffe is a large African hoofed mammal belonging to the genus Giraffa. It is the tallest
+        living terrestrial animal and the largest ruminant on Earth. Traditionally, giraffes were thought to be one
+        species, Giraffa camelopardalis, with nine subspecies. Most recently, researchers proposed dividing them into up
+        to eight extant species due to new research into their mitochondrial and nuclear DNA, as well as morphological
+        measurements. Seven other extinct species of Giraffa are known from the fossil record. </animal:comment>
+      <animal:detail>
+        The giraffe is a large African hoofed mammal belonging to the genus Giraffa. It is the tallest living
+        terrestrial animal and the largest ruminant on Earth. Traditionally, giraffes were thought to be one species,
+        Giraffa camelopardalis, with nine subspecies. Most recently, researchers proposed dividing them into up to eight
+        extant species due to new research into their mitochondrial and nuclear DNA, as well as morphological
+        measurements. Seven other extinct species of Giraffa are known from the fossil record. The giraffe's chief
+        distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its spotted
+        coat patterns. It is classified under the family Giraffidae, along with its closest extant relative, the okapi.
+        Its scattered range extends from Chad in the north to South Africa in the south, and from Niger in the west to
+        Somalia in the east. Giraffes usually inhabit savannahs and woodlands. Their food source is leaves, fruits, and
+        flowers of woody plants, primarily acacia species, which they browse at heights most other herbivores cannot
+        reach. Lions, leopards, spotted hyenas, and African wild dogs may prey upon giraffes. Giraffes live in herds of
+        related females and their offspring or bachelor herds of unrelated adult males, but are gregarious and may
+        gather in large aggregations. Males establish social hierarchies through "necking", combat bouts where the neck
+        is used as a weapon. Dominant males gain mating access to females, which bear sole responsibility for raising
+        the young. The giraffe has intrigued various ancient and modern cultures for its peculiar appearance, and has
+        often been featured in paintings, books, and cartoons. It is classified by the International Union for
+        Conservation of Nature (IUCN) as vulnerable to extinction and has been extirpated from many parts of its former
+        range. Giraffes are still found in numerous national parks and game reserves, but estimates as of 2016 indicate
+        there are approximately 97,500 members of Giraffa in the wild. More than 1,600 were kept in zoos in 2010.
+      </animal:detail>
+
+      <animal:type>Mamals</animal:type>
+      <animal:taxon>Kordofan, Nubian, West African, Reticulated, Angolan</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Mammalia</animal:class>
+      <animal:order>Artiodactyla</animal:order>
+      <animal:family>Giraffidae</animal:family>
+      <animal:genus>Giraffa</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Whale">
+      <rdfs:name>Whale</rdfs:name>
+
+      <animal:id>17</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Southern_right_whale.jpg?width=300</animal:image>
+      <animal:comment>Whales are a widely distributed and diverse group of fully aquatic placental marine mammals. As an
+        informal and
+        colloquial grouping, they correspond to large members of the infraorder Cetacea, i.e. all cetaceans apart from
+        dolphins and porpoises.
+        Dolphins and porpoises may be considered whales from a formal, cladistic perspective. Whales, dolphins and
+        porpoises belong to the order
+        Cetartiodactyla, which consists of even-toed ungulates. Their closest non-cetacean living relatives are the
+        hippopotamuses, from which
+        they and other cetaceans diverged about 54 million years ago. The two parvorders of whales, baleen whales
+        (Mysticeti) and toothed whales
+        (Odontoceti), are thought to have had their last common ancestor around 34 million years ago. Mysticetes include
+        four extant (living)
+        families</animal:comment>
+      <animal:detail>
+        Whales are a widely distributed and diverse group of fully aquatic placental marine mammals.
+        As an informal and colloquial grouping, they correspond to large members of the infraorder
+        Cetacea, i.e. all cetaceans apart from dolphins and porpoises. Dolphins and porpoises may be
+        considered whales from a formal, cladistic perspective. Whales, dolphins and porpoises belong
+        to the order Cetartiodactyla, which consists of even-toed ungulates. Their closest non-cetacean
+        living relatives are the hippopotamuses, from which they and other cetaceans diverged about 54
+        million years ago. The two parvorders of whales, baleen whales (Mysticeti) and toothed whales
+        (Odontoceti), are thought to have had their last common ancestor around 34 million years ago.
+        Mysticetes include four extant (living) families: Balaenopteridae (the rorquals), Balaenidae
+        (right whales), Cetotheriidae (the pygmy right whale), and Eschrichtiidae (the grey whale).
+        Odontocetes include the Monodontidae (belugas and narwhals), Physeteridae (the sperm whale),
+        Kogiidae (the dwarf and pygmy sperm whale), and Ziphiidae (the beaked whales), as well as the
+        six families of dolphins and porpoises which are not considered whales in the informal sense.
+        Whales are fully aquatic, open-ocean creatures: they can feed, mate, give birth, suckle and raise
+        their young at sea. Whales range in size from the 2.6 metres (8.5 ft) and 135 kilograms (298 lb)
+        dwarf sperm whale to the 29.9 metres (98 ft) and 190 metric tons (210 short tons) blue whale,
+        which is the largest known animal that has ever lived. The sperm whale is the largest toothed
+        predator on Earth.
+      </animal:detail>
+
+      <animal:type>Mamals</animal:type>
+      <animal:taxon>Cetacea</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Mammalia</animal:class>
+      <animal:order>Artiodactyla</animal:order>
+      <animal:family>Cetacean</animal:family>
+      <animal:genus>Balaenoptera musculus, Eschrichtius, Physeter</animal:genus>
+    </animal:Description>
+
+  <!-- amfibi -->
+    <animal:Description rdf:about="http://dbpedia.org/resource/Axolotl">
+      <rdfs:name>Axolotl</rdfs:name>
+
+      <animal:id>18</animal:id>
+      <animal:image>
+        https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ambystoma_mexicanum_1zz.jpg/440px-Ambystoma_mexicanum_1zz.jpg
+      </animal:image>
+      <animal:comment>The axolotl (/ˈæksəlɒtəl/; from Classical Nahuatl: āxōlōtl [aːˈʃoːloːtɬ]), Ambystoma mexicanum, is
+        a paedomorphic salamander closely related to the tiger salamander. Axolotls are unusual among amphibians in that
+        they reach adulthood without undergoing metamorphosis. Instead of taking to the land, adults remain aquatic and
+        gilled. The species was originally found in several lakes underlying what is now Mexico City, such as Lake
+        Xochimilco and Lake Chalco. These lakes were drained by Spanish settlers after the conquest of the Aztec Empire,
+        leading to the destruction of much of the axolotl’s natural habitat. </animal:comment>
+      <animal:detail>
+        The axolotl (/ˈæksəlɒtəl/; from Classical Nahuatl: āxōlōtl [aːˈʃoːloːtɬ]),
+        Ambystoma mexicanum, is a paedomorphic salamander closely related to the
+        tiger salamander. Axolotls are unusual among amphibians in that they reach
+        adulthood without undergoing metamorphosis. Instead of taking to the land,
+        adults remain aquatic and gilled. The species was originally found in several
+        lakes underlying what is now Mexico City, such as Lake Xochimilco and Lake
+        Chalco. These lakes were drained by Spanish settlers after the conquest of the
+        Aztec Empire, leading to the destruction of much of the axolotl’s natural
+        habitat. Axolotls should not be confused with the larval stage of the closely
+        related tiger salamander (A. tigrinum), which are widespread in much of
+        North America and occasionally become paedomorphic. Neither should they
+        be confused with mudpuppies (Necturus spp.), fully aquatic salamanders
+        from a different family that are not closely related to the axolotl but bear a
+        superficial resemblance. As of 2020, wild axolotls were near extinction due to
+        urbanization in Mexico City and consequent water pollution, as well as the
+        introduction of invasive species such as tilapia and perch. They are listed as
+        critically endangered in the wild, with a decreasing population of around 50
+        to 1,000 adult individuals, by the International Union for Conservation of
+        Nature and Natural Resources (IUCN) and are listed under Appendix II of the
+        Convention on International Trade in Endangered Species (CITES). Axolotls
+        are used extensively in scientific research due to their ability to regenerate
+        limbs, gills and parts of their eyes and brains. Axolotls were also sold as food
+        in Mexican markets and were a staple in the Aztec diet.
+      </animal:detail>
+
+      <animal:type>Amphibia</animal:type>
+      <animal:taxon>Ambystoma</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Amphibia</animal:class>
+      <animal:order>Urodela</animal:order>
+      <animal:family>Ambystomatidae</animal:family>
+      <animal:genus>Ambystoma</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Salamander">
+      <rdfs:name>Salamander</rdfs:name>
+
+      <animal:id>19</animal:id>
+      <animal:image>https://upload.wikimedia.org/wikipedia/commons/b/b2/SpottedSalamander.jpg</animal:image>
+      <animal:comment></animal:comment>
+      <animal:detail>
+        Salamanders are a group of amphibians typically characterized by their lizard-
+        like appearance, with slender bodies, blunt snouts, short limbs projecting at
+        right angles to the body, and the presence of a tail in both larvae and adults.
+        All ten extant salamander families are grouped together under the order
+        Urodela. Salamander diversity is highest in eastern North America, especially
+        in the Appalachian Mountains; most species are found in the Holarctic realm,
+        with some species present in the Neotropical realm. Salamanders rarely have
+        more than four toes on their front legs and five on their rear legs, but some
+        species have fewer digits and others lack hind limbs. Their permeable skin
+        usually makes them reliant on habitats in or near water or other cool, damp
+        places. Some salamander species are fully aquatic throughout their lives,
+        some take to the water intermittently, and others are entirely terrestrial as
+        adults. This group of amphibians is capable of regenerating lost limbs as well
+        as other damaged parts of their bodies. Researchers hope to reverse engineer
+        the regenerative processes for potential human medical applications, such as
+        brain and spinal cord injury treatment or preventing harmful scarring during
+        heart surgery recovery. Members of the family Salamandridae are mostly
+        known as newts and lack the costal grooves along the sides of their bodies
+        typical of other groups. The skin of some species contains the powerful
+        poison tetrodotoxin; these salamanders tend to be slow-moving and have
+        bright warning coloration to advertise their toxicity. Salamanders typically lay
+        eggs in water and have aquatic larvae, but great variation occurs in their
+        lifecycles. Some species in harsh environments reproduce while still in the
+        larval state. (en)
+      </animal:detail>
+      <animal:taxon>Urodela</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Amphibia</animal:class>
+      <animal:order>Urodela</animal:order>
+      <animal:family>Hynobiidae</animal:family>
+      <animal:genus>Andrias, Onychodactylus</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Frog">
+      <rdfs:name>Frog</rdfs:name>
+
+      <animal:id>20</animal:id>
+      <animal:image>https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Anoures.jpg/620px-Anoures.jpg</animal:image>
+      <animal:comment>A frog is any member of a diverse and largely carnivorous group of short-bodied, tailless
+        amphibians composing the order Anura (ανοὐρά, literally without tail in Ancient Greek). The oldest fossil
+        "proto-frog" Triadobatrachus is known from the Early Triassic of Madagascar, but molecular clock dating suggests
+        their split from other amphibians may extend further back to the Permian, 265 million years ago. Frogs are
+        widely distributed, ranging from the tropics to subarctic regions, but the greatest concentration of species
+        diversity is in tropical rainforest. Frogs account for around 88% of extant amphibian species. They are also one
+        of the five most diverse vertebrate orders. Warty frog species tend to be called toads, but the distinction
+        between frogs and toads is informal, not from taxonomy</animal:comment>
+      <animal:detail>
+        A frog is any member of a diverse and largely carnivorous group of short
+        bodied, tailless amphibians composing the order Anura (ανοὐρά, literally
+        without tail in Ancient Greek). The oldest fossil "proto-frog" Triadobatrachus
+        is known from the Early Triassic of Madagascar, but molecular clock dating
+        suggests their split from other amphibians may extend further back to the
+        Permian, 265 million years ago. Frogs are widely distributed, ranging from the
+        tropics to subarctic regions, but the greatest concentration of species
+        diversity is in tropical rainforest. Frogs account for around 88% of extant
+        amphibian species. They are also one of the five most diverse vertebrate
+        orders. Warty frog species tend to be called toads, but the distinction
+        between frogs and toads is informal, not from taxonomy or evolutionary
+        history. An adult frog has a stout body, protruding eyes, anteriorly-attached
+        tongue, limbs folded underneath, and no tail (the tail of tailed frogs is an
+        extension of the male cloaca). Frogs have glandular skin, with secretions
+        ranging from distasteful to toxic. Their skin varies in colour from well-
+        camouflaged dappled brown, grey and green to vivid patterns of bright red
+        or yellow and black to show toxicity and ward off predators. Adult frogs live
+        in fresh water and on dry land; some species are adapted for living
+        underground or in trees. Frogs typically lay their eggs in water. The eggs
+        hatch into aquatic larvae called tadpoles that have tails and internal gills.
+        They have highly specialized rasping mouth parts suitable for herbivorous,
+        omnivorous or planktivorous diets. The life cycle is completed when they
+        metamorphose into adults. A few species deposit eggs on land or bypass the
+        tadpole stage. Adult frogs generally have a carnivorous diet consisting of
+        small invertebrates, but omnivorous species exist and a few feed on plant
+        matter. Frog skin has a rich microbiome which is important to their health.
+        Frogs are extremely efficient at converting what they eat into body mass.
+        They are an important food source for predators and part of the food web
+        dynamics of many of the world's ecosystems. The skin is semi-permeable,
+        making them susceptible to dehydration, so they either live in moist places or
+        have special adaptations to deal with dry habitats. Frogs produce a wide
+        range of vocalizations, particularly in their breeding season, and exhibit many
+        different kinds of complex behaviors to attract mates, to fend off predators
+        and to generally survive. Frogs are valued as food by humans and also have
+        many cultural roles in literature, symbolism and religion. They are also seen as
+        environmental bellwethers, with declines in frog populations often viewed as
+        early warning signs of environmental damage. Frog populations have
+        declined significantly since the 1950s. More than one third of species are
+        considered to be threatened with extinction and over 120 are believed to
+        have become extinct since the 1980s. The number of malformations among
+        frogs is on the rise and an emerging fungal disease, chytridiomycosis, has
+        spread around the world. Conservation biologists are working to understand
+        the causes of these problems and to resolve them. (en)
+      </animal:detail>
+      
+      <animal:type>Amphibia</animal:type>
+      <animal:taxon>Anura</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Amphibia</animal:class>
+      <animal:order>Anura</animal:order>
+      <animal:family>Bufonidae, Hylidae, Strabomantidae, Microhylidae</animal:family>
+      <animal:genus> Nimbaphrynoides, Nectophrynoides, Cyclorana</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Caecilian">
+      <rdfs:name>Caecilian </rdfs:name>
+
+      <animal:id>21</animal:id>
+      <animal:image>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Oscaecilia_ochrocephala_%2816983972190%29.jpg/1200px-Oscaecilia_ochrocephala_%2816983972190%29.jpg</animal:image>
+      <animal:comment>Caecilians (/sɪˈsɪliən/; New Latin for 'blind ones') are a group of limbless, vermiform or
+        serpentine amphibians. They mostly live hidden in the ground and in stream substrates, making them the least
+        familiar order of amphibians. Caecilians are mostly distributed in the tropics of South and Central America,
+        Africa, and southern Asia. Their diet consists of small subterranean creatures such as earthworms.
+      </animal:comment>
+      <animal:detail>
+        Caecilians (/sɪˈsɪliən/; New Latin for 'blind ones') are a group of limbless,
+        vermiform or serpentine amphibians. They mostly live hidden in the ground
+        and in stream substrates, making them the least familiar order of amphibians.
+        Caecilians are mostly distributed in the tropics of South and Central America,
+        Africa, and southern Asia. Their diet consists of small subterranean creatures
+        such as earthworms. All modern caecilians and their closest fossil relatives are
+        grouped as a clade, Apoda /ˈæpədə/, within the larger group Gymnophiona
+        /dʒɪmnəˈfaɪənə/, which also includes more primitive extinct caecilian-like
+        amphibians. The name derives from the Greek words γυμνος (gymnos,
+        naked) and οφις (ophis, snake), as the caecilians were originally thought to be
+        related to snakes. The body is cylindrical dark brown or bluish black in colour.
+        The skin is slimy and bears grooves or ringlike markings.
+      </animal:detail>
+      
+      <animal:type>Amphibia</animal:type>
+      <animal:taxon>Gymnophiona</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Amphibia</animal:class>
+      <animal:order>Gymnophiona</animal:order>
+      <animal:family>Typhlonectidae, Scolecomorphidae, Caeciliidae, Dermophiidae, Grandisoniidae, Herpelidae,
+        Ichthyophiidae</animal:family>
+      <animal:genus></animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Toad">
+      <rdfs:name>Toad</rdfs:name>
+
+      <animal:id>22</animal:id>
+      <animal:image>https://upload.wikimedia.org/wikipedia/commons/3/31/Bombina_bombina_1_%28Marek_Szczepanek%29.jpg</animal:image>
+      <animal:comment>Toad is a common name for certain frogs, especially of the family Bufonidae, that are
+        characterized by dry, leathery skin, short legs, and large bumps covering the parotoid glands. A distinction
+        between frogs and toads is not made in scientific taxonomy, but is common in popular culture (folk taxonomy), in
+        which toads are associated with drier, rougher skin and more terrestrial habitats.</animal:comment>
+      <animal:detail>
+        Toad is a common name for certain frogs, especially of the family Bufonidae,
+        covering the parotoid glands. A distinction between frogs and toads is not
+        made in scientific taxonomy, but is common in popular culture (folk
+        taxonomy), in which toads are associated with drier, rougher skin and more
+        terrestrial habitats.
+      </animal:detail>
+      
+      <animal:type>Amphibia</animal:type>
+      <animal:taxon>Anura</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Amphibia</animal:class>
+      <animal:order>Anura</animal:order>
+      <animal:family>Ascaphidae, Bombinatoridae, Alytidae, Leiopelmatidae</animal:family>
+      <animal:genus>Bufo</animal:genus>
+    </animal:Description>
+
+  <!-- invertebrata -->
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Butterfly">
+      <rdfs:name>Butterfly</rdfs:name>
+
+      <animal:id>23</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Fesoj_-_Papilio_machaon_(by).jpg?width=300</animal:image>
+      <animal:comment>Butterflies are insects in the macrolepidopteran clade Rhopalocera from the order Lepidoptera,
+        which also includes moths. Adult butterflies have large, often brightly coloured wings, and conspicuous,
+        fluttering flight. The group comprises the large superfamily Papilionoidea, which contains at least one former
+        group, the skippers (formerly the superfamily "Hesperioidea"), and the most recent analyses suggest it also
+        contains the moth-butterflies (formerly the superfamily "Hedyloidea"). Butterfly fossils date to the Paleocene,
+        about 56 million years ago.</animal:comment>
+      <animal:detail>
+        Butterflies are insects in the macrolepidopteran clade Rhopalocera from the order Lepidoptera,
+        which also includes moths. Adult butterflies have large, often brightly coloured wings, and
+        conspicuous, fluttering flight. The group comprises the large superfamily Papilionoidea, which
+        contains at least one former group, the skippers (formerly the superfamily "Hesperioidea"), and
+        the most recent analyses suggest it also contains the moth-butterflies (formerly the superfamily
+        "Hedyloidea"). Butterfly fossils date to the Paleocene, about 56 million years ago. Butterflies
+        have a four-stage life cycle, as like most insects they undergo complete metamorphosis. Winged
+        adults lay eggs on the food plant on which their larvae, known as caterpillars, will feed. The
+        caterpillars grow, sometimes very rapidly, and when fully developed, pupate in a chrysalis. When
+        metamorphosis is complete, the pupal skin splits, the adult insect climbs out, and after its wings
+        have expanded and dried, it flies off. Some butterflies, especially in the tropics, have several
+        generations in a year, while others have a single generation, and a few in cold locations may take
+        several years to pass through their entire life cycle. Butterflies are often polymorphic, and many
+        species make use of camouflage, mimicry, and aposematism to evade their predators. Some, like the
+        monarch and the painted lady, migrate over long distances. Many butterflies are attacked by parasites
+        or parasitoids, including wasps, protozoans, flies, and other invertebrates, or are preyed upon by
+        other organisms. Some species are pests because in their larval stages they can damage domestic crops
+        or trees; other species are agents of pollination of some plants. Larvae of a few butterflies
+        (e.g., harvesters) eat harmful insects, and a few are predators of ants, while others live as mutualists
+        in association with ants. Culturally, butterflies are a popular motif in the visual and literary arts.
+        The Smithsonian Institution says "butterflies are certainly one of the most appealing creatures in nature".
+      </animal:detail>
+
+      <animal:type>Invertebrata</animal:type>
+      <animal:taxon>Rhopalocera</animal:taxon>
+      <animal:phylum>Arthropoda</animal:phylum>
+      <animal:class>Insecta</animal:class>
+      <animal:order>Lepidoptera</animal:order>
+      <animal:family>Hesperiidae, Lycaenidae, Nymphalidae, Papilionidae, Pieridae, Riodinidae</animal:family>
+      <animal:genus>Agathymus, Calpodes, Euploea</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Spider">
+      <rdfs:name>Spider</rdfs:name>
+
+      <animal:id>24</animal:id>
+      <animal:image>https://cdn.mos.cms.futurecdn.net/dvoHXwLR25HTbPdbQTZc7j-650-80.jpg.webp</animal:image>
+      <animal:comment>Spiders (order Araneae) are air-breathing arthropods that have eight legs, chelicerae with fangs
+        generally able to inject venom, and spinnerets that extrude silk. They are the largest order of arachnids and
+        rank seventh in total species diversity among all orders of organisms. Spiders are found worldwide on every
+        continent except for Antarctica, and have become established in nearly every land habitat. As of August 2022,
+        50,356 spider species in 132 families have been recorded by taxonomists. However, there has been debate among
+        scientists about how families should be classified, with over 20 different classifications proposed since 1900.
+      </animal:comment>
+      <animal:detail>
+        Spiders (order Araneae) are air-breathing arthropods that have eight legs, chelicerae with
+        fangs generally able to inject venom, and spinnerets that extrude silk. They are the largest
+        order of arachnids and rank seventh in total species diversity among all orders of organisms.
+        Spiders are found worldwide on every continent except for Antarctica, and have become established
+        in nearly every land habitat. As of August 2022, 50,356 spider species in 132 families have been
+        recorded by taxonomists. However, there has been debate among scientists about how families should
+        be classified, with over 20 different classifications proposed since 1900. Anatomically, spiders
+        (as with all arachnids) differ from other arthropods in that the usual body segments are fused
+        into two tagmata, the cephalothorax or prosoma, and the opisthosoma, or abdomen, and joined by a
+        small, cylindrical pedicel, however, as there is currently neither paleontological nor embryological
+        evidence that spiders ever had a separate thorax-like division, there exists an argument against the
+        validity of the term cephalothorax, which means fused cephalon (head) and the thorax. Similarly,
+        arguments can be formed against use of the term abdomen, as the opisthosoma of all spiders contains
+        a heart and respiratory organs, organs atypical of an abdomen. Unlike insects, spiders do not have
+        antennae. In all except the most primitive group, the Mesothelae, spiders have the most centralized
+        nervous systems of all arthropods, as all their ganglia are fused into one mass in the cephalothorax.
+        Unlike most arthropods, spiders have no extensor muscles in their limbs and instead extend them by
+        hydraulic pressure. Their abdomens bear appendages that have been modified into spinnerets that extrude
+        silk from up to six types of glands. Spider webs vary widely in size, shape and the amount of sticky
+        thread used. It now appears that the spiral orb web may be one of the earliest forms, and spiders that
+        produce tangled cobwebs are more abundant and diverse than orb-weaver spiders. Spider-like arachnids
+        with silk-producing spigots appeared in the Devonian period about 386 million years ago, but these
+        animals apparently lacked spinnerets. True spiders have been found in Carboniferous rocks from 318 to
+        299 million years ago, and are very similar to the most primitive surviving suborder, the Mesothelae.
+        The main groups of modern spiders, Mygalomorphae and Araneomorphae, first appeared in the Triassic
+        period, before 200 million years ago.
+      </animal:detail>
+      
+      <animal:type>Invertebrata</animal:type>
+      <animal:taxon>Araneae</animal:taxon>
+      <animal:phylum>Arthropoda</animal:phylum>
+      <animal:class>Arachnida</animal:class>
+      <animal:order>Araneae</animal:order>
+      <animal:family>Caponiidae, Theridiosomatidae, Deinopidae</animal:family>
+      <animal:genus>Mastophora, Portia, Anelosimus</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Crab">
+      <rdfs:name>Crab</rdfs:name>
+
+      <animal:id>25</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Liocarcinus_vernalis.jpg?width=300</animal:image>
+      <animal:comment>Crabs are decapod crustaceans of the infraorder Brachyura, which typically have a very short
+        projecting "tail" (abdomen) (Greek: βραχύς, romanized: brachys = short, οὐρά / οura = tail), usually hidden
+        entirely under the thorax. They live in all the world's oceans, in freshwater, and on land, are generally
+        covered with a thick exoskeleton, and have a single pair of pincers. They first appeared during the Jurassic
+        Period. </animal:comment>
+      <animal:detail>
+        Crabs are decapod crustaceans of the infraorder Brachyura, which typically have a very
+        short projecting "tail" (abdomen) (Greek: βραχύς, romanized: brachys = short, οὐρά / οura = tail),
+        usually hidden entirely under the thorax. They live in all the world's oceans, in freshwater,
+        and on land, are generally covered with a thick exoskeleton, and have a single pair of pincers.
+        They first appeared during the Jurassic Period.
+      </animal:detail>
+      
+      <animal:type>Invertebrata</animal:type>
+      <animal:taxon>Brachyura</animal:taxon>
+      <animal:phylum>Arthropoda</animal:phylum>
+      <animal:class>Malacostraca</animal:class>
+      <animal:order>Decapoda</animal:order>
+      <animal:family>Carcinus, Dromiidae, Homolidae, Xanthidae</animal:family>
+      <animal:genus>Uca</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="http://dbpedia.org/resource/Crocodile">
+      <rdfs:name>Crocodile</rdfs:name>
+
+      <animal:id>26</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Nile_crocodile_head.jpg?width=300</animal:image>
+      <animal:comment>Crocodiles (family Crocodylidae) or true crocodiles are large semiaquatic reptiles that live
+        throughout the tropics in Africa, Asia, the Americas and Australia. The term crocodile is sometimes used even
+        more loosely to include all extant members of the order Crocodilia, which includes the alligators and caimans
+        (family Alligatoridae), the gharial and false gharial (family Gavialidae) among other extinct taxa.
+      </animal:comment>
+      <animal:detail>
+        Crocodiles (family Crocodylidae) or true crocodiles are large semiaquatic reptiles that live throughout the
+        tropics in Africa, Asia, the Americas and Australia. The term crocodile is sometimes used even more loosely to
+        include all extant members of the order Crocodilia, which includes the alligators and caimans (family
+        Alligatoridae), the gharial and false gharial (family Gavialidae) among other extinct taxa. Although they appear
+        similar, crocodiles, alligators and the gharial belong to separate biological families. The gharial, with its
+        narrow snout, is easier to distinguish, while morphological differences are more difficult to spot in crocodiles
+        and alligators. The most obvious external differences are visible in the head, with crocodiles having narrower
+        and longer heads, with a more V-shaped than a U-shaped snout compared to alligators and caimans. Another obvious
+        trait is that the upper and lower jaws of the crocodiles are the same width, and the teeth in the lower jaw fall
+        along the edge or outside the upper jaw when the mouth is closed; therefore, all teeth are visible, unlike an
+        alligator, which possesses in the upper jaw small depressions into which the lower teeth fit. Also, when the
+        crocodile's mouth is closed, the large fourth tooth in the lower jaw fits into a constriction in the upper jaw.
+        For hard-to-distinguish specimens, the protruding tooth is the most reliable feature to define the species'
+        family. Crocodiles have more webbing on the toes of the hind feet and can better tolerate saltwater due to
+        specialized salt glands for filtering out salt, which are present, but non-functioning, in alligators. Another
+        trait that separates crocodiles from other crocodilians is their much higher levels of aggression. Crocodile
+        size, morphology, behaviour and ecology differ somewhat among species. However, they have many similarities in
+        these areas as well. All crocodiles are semiaquatic and tend to congregate in freshwater habitats such as
+        rivers, lakes, wetlands and sometimes in brackish water and saltwater. They are carnivorous animals, feeding
+        mostly on vertebrates such as fish, reptiles, birds and mammals, and sometimes on invertebrates such as molluscs
+        and crustaceans, depending on species and age. All crocodiles are tropical species that, unlike alligators, are
+        very sensitive to cold. They separated from other crocodilians during the Eocene epoch, about 55 million years
+        ago. Many species are at the risk of extinction, some being classified as critically endangered.
+      </animal:detail>
+
+      <animal:type>Reptile</animal:type>
+      <animal:taxon>Crocodylidae</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Reptilia</animal:class>
+      <animal:order>Crocodilia</animal:order>
+      <animal:family>Crocodylidae</animal:family>
+      <animal:genus>Crocodylus</animal:genus>
+    </animal:Description>
+
+    <animal:Description rdf:about="https://dbpedia.org/page/Monitor_lizard">
+      <rdfs:name>Monitor Lizard</rdfs:name>
+
+      <animal:id>27</animal:id>
+      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Varanidae-01.jpg?width=300</animal:image>
+      <animal:comment>Monitor lizards are lizards in the genus Varanus, the only extant genus in the family Varanidae.
+        They are native to Africa, Asia, and Oceania, and one species is also found in the Americas as an invasive
+        species. About 80 species are recognized. </animal:comment>
+      <animal:detail>
+        Monitor lizards are lizards in the genus Varanus, the only extant genus in the family Varanidae. They are native
+        to Africa, Asia, and Oceania, and one species is also found in the Americas as an invasive species. About 80
+        species are recognized. Monitor lizards have long necks, powerful tails and claws, and well-developed limbs. The
+        adult length of extant species ranges from 20 cm (7.9 in) in some species, to over 3 m (10 ft) in the case of
+        the Komodo dragon, though the extinct varanid known as megalania (Varanus priscus) may have been capable of
+        reaching lengths more than 7 m (23 ft). Most monitor species are terrestrial, but arboreal and semiaquatic
+        monitors are also known. While most monitor lizards are carnivorous, eating eggs, smaller reptiles, fish, birds,
+        insects, and small mammals, some also eat fruit and vegetation, depending on where they live.
+      </animal:detail>
+
+      <animal:type>Reptile</animal:type>
+      <animal:taxon>Varanus</animal:taxon>
+      <animal:phylum>Chordata</animal:phylum>
+      <animal:class>Reptilia</animal:class>
+      <animal:order>Squamata</animal:order>
+      <animal:family>Varanidae</animal:family>
+      <animal:genus>Varanus</animal:genus>
+    </animal:Description>
+
+</rdf:RDF>
