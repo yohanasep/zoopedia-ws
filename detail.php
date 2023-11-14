@@ -6,18 +6,19 @@ require_once __DIR__ . "/vendor/easyrdf/easyrdf/lib/Graph.php";
 require_once __DIR__ . "/vendor/easyrdf/easyrdf/lib/GraphStore.php";
 
 // Setup some additional prefixes for DBpedia
-// \EasyRdf\RdfNamespace::set('dbc', 'http://dbpedia.org/resource/Category:');
-// \EasyRdf\RdfNamespace::set('dbo', 'http://dbpedia.org/ontology/');
-// \EasyRdf\RdfNamespace::set('dbpedia', 'http://dbpedia.org/property/');
-// \EasyRdf\RdfNamespace::set('dbr', 'http://dbpedia.org/resource/');
-// \EasyRdf\RdfNamespace::set('dbp', 'http://dbpedia.org/property/');
-// \EasyRdf\RdfNamespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
+\EasyRdf\RdfNamespace::set('dbc', 'http://dbpedia.org/resource/Category:');
+\EasyRdf\RdfNamespace::set('dbo', 'http://dbpedia.org/ontology/');
+\EasyRdf\RdfNamespace::set('dbpedia', 'http://dbpedia.org/property/');
+\EasyRdf\RdfNamespace::set('dbr', 'http://dbpedia.org/resource/');
+\EasyRdf\RdfNamespace::set('dbp', 'http://dbpedia.org/property/');
+\EasyRdf\RdfNamespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
 \EasyRdf\RdfNamespace::set('animal', 'https://example.org/schema/animals');
 
-// $sparql = new \EasyRdf\Sparql\Client('http://dbpedia.org/sparql');
+$sparql = new \EasyRdf\Sparql\Client('http://dbpedia.org/sparql');
 $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
 
 $getID = $_GET['id'];
+if($getID) :
 $sparql_query = 'SELECT * WHERE {
 ?animal rdf:type animal:Description;
     rdfs:name ?nama;
@@ -47,6 +48,56 @@ $order = $row->order;
 $family = $row->family;
 $genus = $row->genus;
 $id = $row->id;
+
+// elseif($_GET['searchAnimal']) :
+//     $animal=$_GET['searchAnimal'];
+//     $trimmedSearch=trim(substr($animal,28),"/");
+
+//   $q = 'SELECT * WHERE {' .
+//     '  dbr:'.$animal.' rdf:type dbo:University;' .
+//     '  dbo:abstract ?descs ;' .
+//     '   rdfs:label ?nama .' .
+//     'FILTER langMatches (lang(?descs),"EN")' .
+//     'FILTER langMatches (lang(?nama),"EN")' .
+
+//     'OPTIONAL{ dbr:'.$animal.' foaf:isPrimaryTopicOf ?wiki .}'.
+//     'OPTIONAL{ dbr:'.$animal.' dbp:motto ?motto .}'.
+//     'OPTIONAL{ dbr:'.$animal.' dbp:rector ?rector .}'.
+//       'OPTIONAL{   dbr:'.$animal.' geo:lat ?lat .}'.
+//         'OPTIONAL{ dbr:'.$animal.' geo:long ?long .}'.
+//     '} LIMIT 1 ';
+
+
+//   $results = $sparql->query($q);
+//   $details = [];
+
+//   foreach ($results as $row) {
+      
+//         $details = [
+//           "nama" => $row->nama??null,
+          
+//           "rector" => $row->rector ?? null,
+//           "desc"=>$row->descs??null,
+//           "motto"=>$row->motto ??null,
+//           "wiki"=>$row->wiki ??null ,
+//           "lat"=>$row->lat??null,
+//           "long"=>$row->long ?? null,
+
+         
+//         ];
+//         break;
+//       }
+    
+
+//   if(!empty($details['wiki']))
+//   {
+//     \EasyRdf\RdfNamespace::setDefault('og');
+//     $wiki= \EasyRdf\Graph::newAndLoad($details['wiki']);
+//     $foto_url =$wiki->image;
+//   }
+//   else{
+//     $foto_url="public/default.png";
+//   }
 ?>
 <div class="container">
 
@@ -83,18 +134,19 @@ $id = $row->id;
         </div>
         <div class="tab-pane fade mt-3" id="taxonomy-tab-pane" aria-labelledby="taxonomy-tab" tabindex="0">
             <ul>
-                <li><?= $taxon ?></li>
-                <li> <?=$phylum?> </li>
-                <li> <?=$class?> </li>
-                <li> <?=$order?> </li>
-                <li> <?=$family?> </li>
-                <li> <?=$genus?> </li>
+                <li>Taxon : <?= $taxon ?></li>
+                <li>Phylum : <?=$phylum?> </li>
+                <li>Class : <?=$class?> </li>
+                <li>Order : <?=$order?> </li>
+                <li>Family : <?=$family?> </li>
+                <li>Genus : <?=$genus?> </li>
             </ul>
         </div>
         <div class="tab-pane fade mt-3" id="habitat-tab-pane" aria-labelledby="habitat-tab" tabindex="0">Gaza, Palestina
         </div>
     </div>
 </div>
+<?php endif;?>
 
 <?php
 include 'tata_letak/footer.php'

@@ -7,16 +7,22 @@ require_once __DIR__ . "/vendor/easyrdf/easyrdf/lib/GraphStore.php";
 
 // Setup some additional prefixes for DBpedia
 \EasyRdf\RdfNamespace::set('dbo', 'http://dbpedia.org/ontology/');
-\EasyRdf\RdfNamespace::set('dbr', 'http://dbpedia.org/resource/');
+\EasyRdf\RdfNamespace::set('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+\EasyRdf\RdfNamespace::set('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
 \EasyRdf\RdfNamespace::set('dbp', 'http://dbpedia.org/property/');
-\EasyRdf\RdfNamespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
-\EasyRdf\RdfNamespace::set('animal', 'https://example.org/schema/animals');
 
 $sparql = new \EasyRdf\Sparql\Client('http://dbpedia.org/sparql');
-$sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
 
-$getAnimal = $_GET['searchAnimal'];
-$getAnimal2 = str_replace(' ', '_', ucwords($getAnimal));
+$getAnimal = "";
+if(isset($_GET['searchAnimal'])):
+    $getAnimal = $_GET['searchAnimal'];
+    $words = explode(' ', $getAnimal);
+    $getAnimal2 = ucfirst(strtolower($words[0]));
+
+    for ($i = 1; $i < count($words); $i++) {
+        $getAnimal2 .= ' ' . strtolower($words[$i]);
+    }
+endif;
 ?>
 
 <div style="background: linear-gradient(360deg, rgba(119, 89, 45, 0.70) 0%, rgba(119, 89, 45, 0.46) 77%)">
@@ -39,55 +45,66 @@ $getAnimal2 = str_replace(' ', '_', ucwords($getAnimal));
 <div class="container">
 
     <?php
-    $sparql_query = 'SELECT * WHERE {
-    ?animal rdf:type animal:Description;
-        rdfs:name ?nama;
-        animal:comment ?comment;
-        animal:image ?img;
-        animal:id ?id;
-        FILTER(?nama = "' . $getAnimal2 . '").
-        }';
+    if (isset($_GET['searchAnimal']) && $_GET['searchAnimal'] != "") :
+    $sparql_query = 'SELECT DISTINCT * WHERE {
+        ?animal rdfs:label ?name.
+        ?animal rdfs:comment ?comment.
+        ?animal dbo:thumbnail ?img.
+        ?animal dbp:taxon ?taxon.
+        FILTER langMatches (lang(?name), "EN") .
+        FILTER langMatches (lang(?comment), "EN") .
+        FILTER langMatches (lang(?taxon), "EN") .
+        FILTER regex (?name, "'. $getAnimal2 .'", "i") .
+        } ORDER BY DESC(STRSTARTS(UCASE(?name), UCASE("' . $getAnimal2 . '"))) LIMIT 15';
 
-    $result = $sparql_jena->query($sparql_query);
+    $result = $sparql->query($sparql_query);
 
-    if ($result):
-
-        foreach ($result as $animal):
+    if (COUNT($result) > 0):
+        foreach ($result as $row):
             $detail = [
-                'nama' => $animal->nama,
-                'comment' => $animal->comment,
-                'img' => $animal->img,
-                'id' => $animal->id,
+                "nama" => $row->name ?? null,
+                "comment" => $row->comment ?? null,
+                "img" => $row->img ?? null,
             ];
-            ?>
+        ?>
 
-            <div class="card my-5 border-2 rounded-4">
-                <div class="card-body rounded-4" style="background-color: #F6EFE5;">
-                    <div class="row">
-                        <div class="col-2">
-                            <img src="<?=$detail['img']?>" alt="thumbnail"
-                                class="rounded-4 pe-3" style="width: 200px; height: 200px;">
-                        </div>
-                        <div class="col-10">
-                            <h4 class="card-title">
-                                <?= $detail['nama'] ?></h4>
-                                <p class="card-text">
-                                    <?= $detail['comment'] ?>
-                                </p>
+    <div class="card my-5 border-2 rounded-4">
+        <div class="card-body rounded-4" style="background-color: #F6EFE5;">
+            <div class="row">
+                <div class="col-2">
+                    <img src="<?= $detail['img'] ?>" alt="thumbnail" class="rounded-4 pe-3"
+                        style="width: 200px; height: 200px;">
+                </div>
+                <div class="col-10">
+                    <h4 class="card-title">
+                        <?= $detail['nama'] ?>
+                    </h4>
+                    <p class="card-text">
+                        <?= $detail['comment'] ?>
+                    </p>
 
-                                <div class="mt-4">
-                                <a href="detail.php?id=<?= $detail['id'] ?>" type="button"
-                                        class="btn btn-warning browse-by-type" style="color: #5B4608;">
-                                        <b>See Detail</b>
-                                    </a>
-                                </div>
-                        </div>
+                    <div class="mt-4">
+                        <a href="/" class="btn btn-warning browse-by-type" style="color: #5B4608;">
+                            <b>See Detail</b>
+                        </a>
                     </div>
                 </div>
             </div>
-        <?php endforeach;?>
-    <?php endif; ?>
-
+        </div>
+    </div>
+    <?php endforeach; ?>
+    <?php else : 
+        echo '
+        <div class="text-center my-5 py-5">
+        <b class="fs-2 text-danger text-center">Data tidak ditemukan, mohon masukkan kata kunci lain.</b>
+        </div>';
+    endif; ?>
+    <?php else:
+        echo '
+        <div class="text-center my-5 py-5">
+        <b class="fs-2 text-danger text-center">Silakan masukkan kata kunci terlebih dahulu.</b>
+        </div>';
+    endif; ?>
 </div>
 
 <?php
