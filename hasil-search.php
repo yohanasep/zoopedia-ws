@@ -62,6 +62,7 @@ endif;
     if (COUNT($result) > 0):
         foreach ($result as $row):
             $detail = [
+                "link" => $row->animal ?? null,
                 "nama" => $row->name ?? null,
                 "comment" => $row->comment ?? null,
                 "img" => $row->img ?? null,
@@ -84,7 +85,7 @@ endif;
                     </p>
 
                     <div class="mt-4">
-                        <a href="/" class="btn btn-warning browse-by-type" style="color: #5B4608;">
+                        <a href="detail.php?link=<?= $detail['link'] ?>" class="btn btn-warning browse-by-type" style="color: #5B4608;">
                             <b>See Detail</b>
                         </a>
                     </div>

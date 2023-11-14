@@ -23,16 +23,35 @@ include 'tata_letak/navbar.php';
     <div class="d-flex">
         <div class="p-4 text-white rounded-4 me-3" style="background-color: #77592D;">Filter search by types of the
             animal</div>
-        <div class="p-4 text-white rounded-4 mx-3" style="background-color: #77592D;">Animal’s detail</div>
-        <div class="p-4 text-white rounded-4 mx-3" style="background-color: #77592D;">Animal’s class</div>
-        <div class="p-4 text-white rounded-4 mx-3" style="background-color: #77592D;">Animal’s golongan</div>
-        <div class="p-4 text-white rounded-4 mx-3" style="background-color: #77592D;">Animal’s habitat</div>
+        <div class="p-4 text-white rounded-4 mx-3" style="background-color: #77592D;">Animal’s Picture</div>
+        <div class="p-4 text-white rounded-4 mx-3" style="background-color: #77592D;">Animal’s abstract/detail</div>
+        <div class="p-4 text-white rounded-4 mx-3" style="background-color: #77592D;">Animal’s Taxonomy</div>
     </div>
 </div>
 
 <div style="background-color: #F4ECE1;">
     <div class="container">
         <p class="fs-2 mt-5 pt-5"><b>Meet Our Team</b></p>
+
+        <div class="row">
+            <div class="col my-5">
+                <div class="w-100 d-flex my-auto">
+                    <img src="img/dev/yohana.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
+                    <div class="my-auto ms-4 fs-4">
+                        <p>Yohana Septamia </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col my-5">
+                <div class="w-100 d-flex my-auto ms-5 ps-5">
+                    <div class="my-auto me-5 ps-4 fs-4">
+                        <p>Yeni Aulia Sinaga</p>
+                    </div>
+                    <img src="img/bird.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
+                </div>
+            </div>
+        </div>
 
         <div class="row">
             <div class="col my-5">
@@ -45,48 +64,25 @@ include 'tata_letak/navbar.php';
             </div>
 
             <div class="col my-5">
-                <div class="w-100 d-flex my-auto ms-5">
-                    <div class="my-auto me-4 fs-4">
-                        <p>Sabrina Marisi Siahaan</p>
-                    </div>
-                    <img src="img/bird.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
+            <div class="w-100 d-flex my-auto ps-5 ms-5">
+                <div class="my-auto me-4 fs-4">
+                    <p>Sabrina Marisi Siahaan</p>
                 </div>
+                <img src="img/dev/sabrina.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
             </div>
-
+            </div>
         </div>
 
         <div class="row">
             <div class="col my-5">
                 <div class="w-100 d-flex my-auto">
-                    <img src="img/bird.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
+                    <img src="img/dev/Sintong.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
                     <div class="my-auto ms-4 fs-4">
                         <p>Sintong Sutanto L. Tobing</p>
                     </div>
                 </div>
             </div>
-
-            <div class="col my-5">
-            <div class="w-100 d-flex my-auto ps-5 ms-5">
-                <div class="my-auto me-4 fs-4">
-                    <p>Yeni Aulia Sinaga</p>
-                </div>
-                <img src="img/bird.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
-            </div>
-            </div>
-
         </div>
-
-        <div class="row">
-            <div class="col my-5">
-                <div class="w-100 d-flex my-auto">
-                    <img src="img/bird.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
-                    <div class="my-auto ms-4 fs-4">
-                        <p>Yohana Septamia</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
 </div>
 
