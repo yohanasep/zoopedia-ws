@@ -17,7 +17,7 @@ require_once __DIR__ . "/vendor/easyrdf/easyrdf/lib/GraphStore.php";
 $sparql = new \EasyRdf\Sparql\Client('http://dbpedia.org/sparql');
 $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
 
-if($_GET['id']) :
+if(isset($_GET['id'])) :
 $getID = $_GET['id'];
 $sparql_query = 'SELECT * WHERE {
 ?animal rdf:type animal:Description;
@@ -97,26 +97,32 @@ $sparql_query = 'SELECT * WHERE {
 </div>
 
 <?php
-elseif($_GET['link']):
+elseif(isset($_GET['link'])):
     $getLink = $_GET['link'];
-    $sparql_query = 'SELECT DISTINCT * WHERE { <' .
-        $getLink .'> rdfs:label ?name.' .
-        $getLink .'dbo:abstract ?abstract. ' .
-        $getLink .'dbo:thumbnail ?img. ' .
-        $getLink .'dbp:taxon ?taxon. ' .
-        'OPTION {' .
-            $getLink .'rdfs:seeAlso ?seeAlso. } .
-        }';
+    $sparql_query = 'SELECT * WHERE { ' .
+        '<' . $getLink .'> ' . 'rdfs:label ?name.' .
+        '<' . $getLink .'> ' . 'dbo:abstract ?abstract.' .
+        '<' . $getLink .'> ' . 'dbo:thumbnail ?img.' .
+        'OPTIONAL { ' .
+            '<' . $getLink . '>' . 'rdfs:seeAlso ?seeAlso. ' .
+            '<' . $getLink . '>' . 'dbp:species ?species. ' .
+            '<' . $getLink . '>' . 'dbp:parent ?parent. ' .
+            '<' . $getLink . '>' . 'dbp:taxon ?taxon. ' .
+        '}' .
+        'FILTER langMatches (lang(?name), "EN") .' .
+        'FILTER langMatches (lang(?abstract), "EN") .' .
+        '}';    
 
     $result = $sparql->query($sparql_query);
-
-    echo ($result);
+    
     if (COUNT($result) > 0):
         foreach ($result as $row):
         $detail = [
             "nama" => $row->name ?? null,
-            "comment" => $row->comment ?? null,
+            "abstract" => $row->abstract ?? null,
             "img" => $row->img ?? null,
+            "taxon" => $row->taxon ?? null,
+            "seeAlso" => $row->seeAlso ?? null,
         ];
     endforeach; endif;
 ?>
@@ -125,25 +131,22 @@ elseif($_GET['link']):
             <i class="fa-solid fa-arrow-left mt-5"></i>
     </button>
     <div class="text-center mt-4">
-        <img src="<?= $img ?>" alt="thumbnail"
+        <img src="<?= $detail['img'] ?>" alt="thumbnail"
             class="w-25 rounded-4 rounded-bottom-0">
         <center>
             <div class="p-2 rounded-5 rounded-top-0 bg-warning text-light mb-5" style="width: 450px;">
-                <b><?= $nama ?></b>
+                <b><?= $detail['nama']  ?></b>
             </div>
         </center>
     </div>
 
     <div>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    <?= $detail['abstract'] ?>
     </div>
 
     <div class="mt-4">
-        <b>You also might want to see :</b>
-        <ul>
-            <li>sdklsmd</li>
-            <li>jdncjdnc</li>
-        </ul>
+        <b class="me-2">You also might want to see :</b>
+        <a href="<?=$detail['seeAlso'] ?>"><?=$detail['seeAlso'] ?></a>
     </div>
 </div>
 <?php endif;?>
