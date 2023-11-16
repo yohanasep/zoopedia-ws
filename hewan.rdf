@@ -15,7 +15,7 @@
 
       <animal:id>1</animal:id>
       <animal:image>
-        http://commons.wikimedia.org/wiki/Special:FilePath/TDpGUipa.jpg?width=300</animal:image>
+        https://cloudfront-us-east-2.images.arcpublishing.com/reuters/4DONYWDQTFIEXC42Z2R6MSBX5Y.jpg</animal:image>
       <animal:comment>
         Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on
         the sides of the head, and pectoral fins that are not fused to the head. Modern sharks are classified within the
@@ -64,7 +64,7 @@
       <rdfs:name>Catfish</rdfs:name>
 
       <animal:id>2</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Ameiurus_melas_by_Duane_Raver.png?width=300
+      <animal:image>https://www.thesprucepets.com/thmb/AcViocuyUCPo5ZkC0r9Vk5KMbXI=/2121x0/filters:no_upscale():strip_icc()/GettyImages-1311243890-fecfa19b6a564567b1968e6a330f76da.jpg
       </animal:image>
       <animal:comment>
         Catfish (or catfishes; order Siluriformes /sɪˈljʊərɪfɔːrmiːz/ or Nematognathi) are a diverse group of
@@ -108,7 +108,7 @@
       <rdfs:name>Goldfish</rdfs:name>
 
       <animal:id>3</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Katri.jpg?width=300</animal:image>
+      <animal:image>https://fishtankmaster.com/wp-content/uploads/2019/04/Goldfish-food.jpg</animal:image>
       <animal:comment>
         The goldfish (Carassius auratus) is a freshwater fish in the family Cyprinidae of order Cypriniformes.
         It is commonly kept as a pet in indoor aquariums, and is one of the most popular aquarium fish. Goldfish
@@ -138,7 +138,7 @@
       <rdfs:name>Stingray</rdfs:name>
 
       <animal:id>4</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/SStringray.jpg?width=300</animal:image>
+      <animal:image>https://www.treehugger.com/thmb/sfXYAnDdo5jb5ShROj5uWTZz1T8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1084272706-67e82d99d00447dd9cd0567739e51e18.jpg</animal:image>
       <animal:comment>
         Stingrays are a group of sea rays, which are cartilaginous fish related to sharks. They are classified in the
         suborder Myliobatoidei of the order Myliobatiformes and consist of eight families: Hexatrygonidae (sixgill
@@ -178,7 +178,7 @@
       <rdfs:name>Clownfish</rdfs:name>
 
       <animal:id>5</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Amphiprion_ocellaris_(Clown_anemonefish)_by_Nick_Hobgood.jpg?width=300</animal:image>
+      <animal:image>https://www.keywestaquarium.com/wp-content/uploads/2021/08/clown-fish.jpeg</animal:image>
       <animal:comment>
         Clownfish or anemonefish are fishes from the subfamily Amphiprioninae in the family Pomacentridae. Thirty
         species of clownfish are recognized: one in the genus Premnas, while the remaining are in the genus Amphiprion.
@@ -208,7 +208,7 @@
       <rdfs:name>Koi fish</rdfs:name>
 
       <animal:id>6</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Ojiya_Nishikigoi_no_Sato_ac_(3).jpg?width=300
+      <animal:image>https://t4.ftcdn.net/jpg/01/83/20/79/360_F_183207930_JUwSWMNSWneDKXdLw0iknR2spXHO3qaC.jpg
       </animal:image>
       <animal:comment>
         Koi (鯉, English: /ˈkɔɪ/, Japanese: [koꜜi]) or more specifically nishikigoi (錦鯉, Japanese: [ɲiɕi̥kiꜜɡoi],
@@ -242,7 +242,7 @@
 
       <animal:id>7</animal:id>
       <animal:image>
-        http://commons.wikimedia.org/wiki/Special:FilePath/tuna_assortment.png?width=300</animal:image>
+        https://static.dw.com/image/15659804_605.jpg</animal:image>
       <animal:comment>
         A tuna is a saltwater fish that belongs to the tribe Thunnini, a subgrouping of the Scombridae (mackerel)
         family. The Thunnini comprise 15 species across five genera, the sizes of which vary greatly, ranging from the
@@ -279,7 +279,7 @@
 
       <animal:id>8</animal:id>
 
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Bird_Diversity_2013.png?width=300</animal:image>
+      <animal:image>https://c02.purpledshub.com/uploads/sites/62/2022/12/GettyImages-858004102-7995c0b.jpg</animal:image>
       <animal:comment>Birds are a group of warm-blooded vertebrates constituting the class Aves (/ˈeɪviːz/),
         characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a
         four-chambered heart, and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5.5
@@ -335,7 +335,7 @@
 
       <animal:id>9</animal:id>
       <animal:image>
-        http://commons.wikimedia.org/wiki/Special:FilePath/Male_and_female_chicken_sitting_together.jpg?width=300
+        https://www.putraperkasa.co.id/wp-content/uploads/2023/07/Apa-itu-Ayam-Ras-Apa-Bedanya-dengan-Ayam-Buras-Pict-01-1200x675.webp
       </animal:image>
       <animal:comment>The chicken (Gallus gallus domesticus) is a domesticated junglefowl species, with attributes 
       of wild species such as the grey and the Ceylon junglefowl that are originally from Southeastern Asia. Rooster 
@@ -374,7 +374,7 @@
       <rdfs:name>Goose</rdfs:name>
 
       <animal:id>10</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Anser_anser_1_(Piotr_Kuczynski).jpg?width=300
+      <animal:image>https://cdn.britannica.com/76/76076-050-39DDCBA1/goose-Canada-North-America.jpg
       </animal:image>
       <animal:comment>A goose (PL: geese) is a bird of any of several waterfowl species in the family Anatidae. This
         group comprises the genera Anser (the grey geese and white geese) and Branta (the black geese). Some other
@@ -405,7 +405,7 @@
       <rdfs:name>Duck</rdfs:name>
 
       <animal:id>11</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Bucephala-albeola-010.jpg?width=300
+      <animal:image>https://media.4-paws.org/b/8/d/5/b8d5441fec6b84e9c3cba899549b84bb0f193fff/VIER%20PFOTEN_2019-07-18_013-2890x2000.jpg
       </animal:image>
       <animal:comment>Duck is the common name for numerous species of waterfowl in the family Anatidae. Ducks are
         generally smaller and shorter-necked than swans and geese, which are members of the same family. Divided among
@@ -436,7 +436,7 @@
 
       <animal:id>12</animal:id>
       <animal:image>
-        http://commons.wikimedia.org/wiki/Special:FilePath/Blue_merle_koolie_short_coat_heading_sheep.jpg?width=300
+        https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg?_=42445
       </animal:image>
       <animal:comment>Spiders (order Araneae) are air-breathing arthropods that have eight legs, chelicerae with fangs
         generally able to inject venom, and spinnerets that extrude silk. They are the largest order of arachnids and
@@ -472,7 +472,7 @@
       <rdfs:name>Cat</rdfs:name>
 
       <animal:id>13</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Cat_August_2010-4.jpg?width=300</animal:image>
+      <animal:image>https://natusan.co.uk/cdn/shop/articles/natusan-blog-how-cat-years-work-header.jpg?v=1674474680</animal:image>
       <animal:comment>The cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only
         domesticated species in the family Felidae and is commonly referred to as the domestic cat or house cat to
         distinguish it from the wild members of the family. Cats are commonly kept as house pets but can also be farm
@@ -516,7 +516,7 @@
       <rdfs:name>Elephant</rdfs:name>
 
       <animal:id>14</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Elephant_Diversity.jpg?width=300</animal:image>
+      <animal:image>https://scitechdaily.com/images/Elephant-Eating-Illustration.jpg</animal:image>
       <animal:comment>Elephants are the largest existing land animals. Three living species are currently recognised:
         the African bush elephant, the African forest elephant, and the Asian elephant. They are the only surviving
         members of the family Elephantidae and the order Proboscidea. The order was formerly much more diverse during
@@ -591,7 +591,7 @@
       <rdfs:name>Kangaroo</rdfs:name>
 
       <animal:id>15</animal:id>
-      <animal:image></animal:image>
+      <animal:image>https://www.treehugger.com/thmb/NeM_WZxf1POLzjxw1cDLAJzNuVw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5-b7a380b2210640d2b00a474738ebab7b.jpg</animal:image>
       <animal:comment>Kangaroos are four marsupials from the family Macropodidae (macropods, meaning "large foot"). In
         common use the term is used to describe the largest species from this family, the red kangaroo, as well as the
         antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo. Kangaroos are indigenous to Australia and
@@ -633,7 +633,7 @@
       <rdfs:name>Giraffe</rdfs:name>
 
       <animal:id>16</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Giraffe_Mikumi_National_Park.jpg?width=300
+      <animal:image>https://www.treehugger.com/thmb/U15qDQ6mi4Z5RRHz5KhLmcQRYm0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/three-female-giraffes-f67deb6e14964fe2a45dcdbefaa21d94.jpg
       </animal:image>
       <animal:comment>The giraffe is a large African hoofed mammal belonging to the genus Giraffa. It is the tallest
         living terrestrial animal and the largest ruminant on Earth. Traditionally, giraffes were thought to be one
@@ -675,7 +675,7 @@
       <rdfs:name>Whale</rdfs:name>
 
       <animal:id>17</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Southern_right_whale.jpg?width=300</animal:image>
+      <animal:image>https://www.worldatlas.com/upload/ff/33/80/adobestock-573332061.jpeg</animal:image>
       <animal:comment>Whales are a widely distributed and diverse group of fully aquatic placental marine mammals. As an
         informal and
         colloquial grouping, they correspond to large members of the infraorder Cetacea, i.e. all cetaceans apart from
@@ -725,7 +725,7 @@
 
       <animal:id>18</animal:id>
       <animal:image>
-        https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ambystoma_mexicanum_1zz.jpg/440px-Ambystoma_mexicanum_1zz.jpg
+        https://www.greeners.co/wp-content/uploads/2021/10/Axolotl-Hewan-Unik-Asal-Meksiko-yang-Tak-Pernah-Menua.jpg
       </animal:image>
       <animal:comment>The axolotl (/ˈæksəlɒtəl/; from Classical Nahuatl: āxōlōtl [aːˈʃoːloːtɬ]), Ambystoma mexicanum, is
         a paedomorphic salamander closely related to the tiger salamander. Axolotls are unusual among amphibians in that
@@ -812,7 +812,7 @@
       <rdfs:name>Frog</rdfs:name>
 
       <animal:id>20</animal:id>
-      <animal:image>https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Anoures.jpg/620px-Anoures.jpg</animal:image>
+      <animal:image>https://www.thoughtco.com/thmb/cnmtp_zHLEfhi2bo8r5cYjV1pVk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/side-view-of-a-green-and-brown-leopard-frog-on-a-white-back-90805815-5c8513b346e0fb00012c66f2.jpg</animal:image>
       <animal:comment>A frog is any member of a diverse and largely carnivorous group of short-bodied, tailless
         amphibians composing the order Anura (ανοὐρά, literally without tail in Ancient Greek). The oldest fossil
         "proto-frog" Triadobatrachus is known from the Early Triassic of Madagascar, but molecular clock dating suggests
@@ -880,7 +880,7 @@
       <rdfs:name>Caecilian </rdfs:name>
 
       <animal:id>21</animal:id>
-      <animal:image>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Oscaecilia_ochrocephala_%2816983972190%29.jpg/1200px-Oscaecilia_ochrocephala_%2816983972190%29.jpg</animal:image>
+      <animal:image>https://cdn.sci.news/images/enlarge11/image_12126e-Caecilian.jpg</animal:image>
       <animal:comment>Caecilians (/sɪˈsɪliən/; New Latin for 'blind ones') are a group of limbless, vermiform or
         serpentine amphibians. They mostly live hidden in the ground and in stream substrates, making them the least
         familiar order of amphibians. Caecilians are mostly distributed in the tropics of South and Central America,
@@ -915,7 +915,7 @@
       <rdfs:name>Toad</rdfs:name>
 
       <animal:id>22</animal:id>
-      <animal:image>https://upload.wikimedia.org/wikipedia/commons/3/31/Bombina_bombina_1_%28Marek_Szczepanek%29.jpg</animal:image>
+      <animal:image>https://i.natgeofe.com/k/a09360a8-bbe1-45fd-b337-b26a72f07132/cane-toad-grass_16x9.jpg</animal:image>
       <animal:comment>Toad is a common name for certain frogs, especially of the family Bufonidae, that are
         characterized by dry, leathery skin, short legs, and large bumps covering the parotoid glands. A distinction
         between frogs and toads is not made in scientific taxonomy, but is common in popular culture (folk taxonomy), in
@@ -943,7 +943,7 @@
       <rdfs:name>Butterfly</rdfs:name>
 
       <animal:id>23</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Fesoj_-_Papilio_machaon_(by).jpg?width=300</animal:image>
+      <animal:image>https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/newscms/2016_16/1497216/160414-monarch-butterflies-calif-944p.jpg</animal:image>
       <animal:comment>Butterflies are insects in the macrolepidopteran clade Rhopalocera from the order Lepidoptera,
         which also includes moths. Adult butterflies have large, often brightly coloured wings, and conspicuous,
         fluttering flight. The group comprises the large superfamily Papilionoidea, which contains at least one former
@@ -987,7 +987,7 @@
       <rdfs:name>Spider</rdfs:name>
 
       <animal:id>24</animal:id>
-      <animal:image>https://cdn.mos.cms.futurecdn.net/dvoHXwLR25HTbPdbQTZc7j-650-80.jpg.webp</animal:image>
+      <animal:image>https://c02.purpledshub.com/uploads/sites/41/2023/03/golden-knee-Tarantula-7828e1b.jpg</animal:image>
       <animal:comment>Spiders (order Araneae) are air-breathing arthropods that have eight legs, chelicerae with fangs
         generally able to inject venom, and spinnerets that extrude silk. They are the largest order of arachnids and
         rank seventh in total species diversity among all orders of organisms. Spiders are found worldwide on every
@@ -1037,7 +1037,7 @@
       <rdfs:name>Crab</rdfs:name>
 
       <animal:id>25</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Liocarcinus_vernalis.jpg?width=300</animal:image>
+      <animal:image>https://facts.net/wp-content/uploads/2023/07/17-facts-about-crabs-1689353635.jpg</animal:image>
       <animal:comment>Crabs are decapod crustaceans of the infraorder Brachyura, which typically have a very short
         projecting "tail" (abdomen) (Greek: βραχύς, romanized: brachys = short, οὐρά / οura = tail), usually hidden
         entirely under the thorax. They live in all the world's oceans, in freshwater, and on land, are generally
@@ -1064,7 +1064,7 @@
       <rdfs:name>Crocodile</rdfs:name>
 
       <animal:id>26</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Nile_crocodile_head.jpg?width=300</animal:image>
+      <animal:image>https://d.newsweek.com/en/full/1886983/alligator.jpg</animal:image>
       <animal:comment>Crocodiles (family Crocodylidae) or true crocodiles are large semiaquatic reptiles that live
         throughout the tropics in Africa, Asia, the Americas and Australia. The term crocodile is sometimes used even
         more loosely to include all extant members of the order Crocodilia, which includes the alligators and caimans
@@ -1109,7 +1109,7 @@
       <rdfs:name>Monitor Lizard</rdfs:name>
 
       <animal:id>27</animal:id>
-      <animal:image>http://commons.wikimedia.org/wiki/Special:FilePath/Varanidae-01.jpg?width=300</animal:image>
+      <animal:image>https://s.yimg.com/ny/api/res/1.2/n1X4_cNocfGkNBdGzFFKug--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en-US/homerun/time_72/1344df17233da95f7d3a30f481fae2bd</animal:image>
       <animal:comment>Monitor lizards are lizards in the genus Varanus, the only extant genus in the family Varanidae.
         They are native to Africa, Asia, and Oceania, and one species is also found in the Americas as an invasive
         species. About 80 species are recognized. </animal:comment>

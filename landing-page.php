@@ -17,10 +17,13 @@ include 'tata_letak/navbar.php';
       <form method="GET" action="hasil-search.php" class="p-4">
         <div class="input-group m-4">
           <input type="text" class="form-control rounded-start-5 ps-4 border-0 py-2" placeholder="Search Animal"
-            aria-label="Recipient's username" aria-describedby="basic-addon2" name="searchAnimal">
-          <button class="input-group-text bg-warning rounded-end-5 px-4 border-0">
-            <i class="fa-solid fa-lg fa-magnifying-glass" style="color: white;" id="basic-addon2"></i>
-          </button>
+            aria-label="Recipient's username" aria-describedby="basic-addon2" name="searchAnimal" id="speechToText">
+            <div class="input-group-text bg-white px-2 border-0">
+                <i class="fa-solid fa-microphone-lines" style="color: #5B4608;" onclick="recordSearch()"></i>
+            </div>
+            <button class="input-group-text bg-white rounded-end-5 px-2 pe-3 border-0" type="submit">
+                <i class="fa-solid fa-magnifying-glass" style="color: #5B4608;" id="basic-addon2"></i>
+            </button>
         </div>
       </form>
     </div>
