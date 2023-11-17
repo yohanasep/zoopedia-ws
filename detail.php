@@ -51,7 +51,7 @@ $sparql_query = 'SELECT * WHERE {
 ?>
 <div class="container mb-5 pb-5">
     <button onclick="goBack()" class="border-0 bg-transparent">
-        <i class="fa-solid fa-arrow-left mt-5"></i></button>
+        <i class="fa-solid fa-arrow-left mt-5 rounded-circle p-2" style="background-color: #5B4608; color: #F6EFE5;"></i></button>
     <div class="text-center mt-4">
         <img src="<?= $img ?>" alt="thumbnail"
             class="w-25 rounded-4 rounded-bottom-0">

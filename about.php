@@ -48,7 +48,7 @@ include 'tata_letak/navbar.php';
                     <div class="my-auto me-5 ps-4 fs-4">
                         <p>Yeni Aulia Sinaga</p>
                     </div>
-                    <img src="img/bird.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
+                    <img src="img/dev/yeni1.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@ include 'tata_letak/navbar.php';
         <div class="row">
             <div class="col my-5">
                 <div class="w-100 d-flex my-auto">
-                    <img src="img/bird.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
+                    <img src="img/dev/melia1.jpg" class="rounded-circle" alt="" style="width: 200px; height: 200px;">
                     <div class="my-auto ms-4 fs-4">
                         <p>Melia Purnamasari</p>
                     </div>

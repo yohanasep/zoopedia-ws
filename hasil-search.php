@@ -33,12 +33,12 @@ endif;
             <input type="text" class="form-control rounded-start-5 ps-4 border-0 py-2" placeholder="Search Animal"
                 aria-label="Recipient's username" aria-describedby="basic-addon2" value="<?= $getAnimal ?>"
                 name="searchAnimal" id="speechToText">
-            <div class="input-group-text bg-white px-2 border-0">
-                <i class="fa-solid fa-microphone-lines" style="color: #5B4608;" onclick="recordSearch()"></i>
-            </div>
-            <button class="input-group-text bg-white rounded-end-5 px-2 pe-3 border-0" type="submit">
+            <button class="input-group-text bg-white rounded-end-5 me-2 ps-4 border-0 py-2" type="submit" >
                 <i class="fa-solid fa-magnifying-glass" style="color: #5B4608;" id="basic-addon2"></i>
             </button>
+            <div class="input-group-text bg-white rounded-circle border-0" style="padding-inline: 14px;" onclick="recordSearch()">
+                <i class="fa-solid fa-microphone-lines" style="color: #5B4608;"></i>
+            </div>
         </div>
     </form>
 </div>    
@@ -52,16 +52,18 @@ endif;
 
     <?php
     if (isset($_GET['searchAnimal']) && $_GET['searchAnimal'] != ""):
-        $sparql_query = 'SELECT DISTINCT * WHERE {
-            ?animal rdfs:label ?name.
-            ?animal rdfs:comment ?comment.
-            ?animal dbp:taxon ?taxon.
+        $sparql_query = 'SELECT DISTINCT *
+        WHERE {
+          ?animal rdfs:label ?name.
+          ?animal  rdfs:comment ?comment.
+          FILTER langMatches(lang(?name), "EN").
+          FILTER langMatches(lang(?comment), "EN").
+          FILTER (?name = "'.$getAnimal2.'"@en) .
+          OPTIONAL {
             ?animal dbo:thumbnail ?img.
-            FILTER langMatches (lang(?name), "EN") .
-            FILTER langMatches (lang(?comment), "EN") .
-            FILTER langMatches (lang(?taxon), "EN") .
-            FILTER regex (?name, "' . $getAnimal2 . '", "i") .
-            } ORDER BY DESC(STRSTARTS(UCASE(?name), UCASE("' . $getAnimal2 . '"))) LIMIT 15';
+          }
+        }';
+        
 
         $result = $sparql->query($sparql_query);
 
@@ -80,8 +82,8 @@ endif;
                     <div class="card-body rounded-4" style="background-color: #F6EFE5;">
                         <div class="row">
                             <div class="col-2">
-                                <img src="<?= $detail['img'] ?>" alt="thumbnail" class="rounded-4 pe-3 img-thumbnail"
-                                    style="width: 200px; height: 200px;">
+                                <img src="<?= $detail['img'] ?>" alt="thumbnail" class="rounded-4 me-3 img-thumbnail border-0"
+                                    style="width: 200px; height: 200px; background: none;">
                             </div>
                             <div class="col-10">
                                 <h4 class="card-title">
@@ -92,9 +94,9 @@ endif;
                                 </p>
 
                                 <div class="mt-4">
-                                    <a href="detail.php?link=<?= $detail['link'] ?>" class="btn btn-warning browse-by-type"
-                                        style="color: #5B4608;">
-                                        <b>See Detail</b>
+                                    <a href="detail.php?link=<?= $detail['link'] ?>" class="btn browse-by-type text-light px-5"
+                                    style="background-color: #5B4608;">
+                                    Details
                                     </a>
                                 </div>
                             </div>
@@ -105,13 +107,13 @@ endif;
         <?php else:
             echo '
         <div class="text-center my-5 py-5">
-        <b class="fs-2 text-danger text-center">Data tidak ditemukan, mohon masukkan kata kunci lain.</b>
+        <b class="fs-2 text-danger text-center">Data not found, please enter another keyword.</b>
         </div>';
         endif; ?>
     <?php else:
         echo '
         <div class="text-center my-5 py-5">
-        <b class="fs-2 text-danger text-center">Silakan masukkan kata kunci terlebih dahulu.</b>
+        <b class="fs-2 text-danger text-center">Please enter the keyword first.</b>
         </div>';
     endif; ?>
 </div>

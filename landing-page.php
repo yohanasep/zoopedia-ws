@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'tata_letak/navbar.php';
 
 ?>
@@ -18,12 +18,12 @@ include 'tata_letak/navbar.php';
         <div class="input-group m-4">
           <input type="text" class="form-control rounded-start-5 ps-4 border-0 py-2" placeholder="Search Animal"
             aria-label="Recipient's username" aria-describedby="basic-addon2" name="searchAnimal" id="speechToText">
-            <div class="input-group-text bg-white px-2 border-0">
-                <i class="fa-solid fa-microphone-lines" style="color: #5B4608;" onclick="recordSearch()"></i>
-            </div>
-            <button class="input-group-text bg-white rounded-end-5 px-2 pe-3 border-0" type="submit">
-                <i class="fa-solid fa-magnifying-glass" style="color: #5B4608;" id="basic-addon2"></i>
-            </button>
+          <button class="input-group-text bg-white pe-3 me-2 border-0 rounded-end-5" type="submit">
+            <i class="fa-solid fa-magnifying-glass" style="color: #5B4608;" id="basic-addon2"></i>
+          </button>
+          <div class="input-group-text bg-white rounded-circle border-0" style="padding-inline: 14px;">
+            <i class="fa-solid fa-microphone-lines" style="color: #5B4608;" onclick="recordSearch()"></i>
+          </div>
         </div>
       </form>
     </div>
@@ -31,61 +31,101 @@ include 'tata_letak/navbar.php';
 </div>
 
 <div class="container">
-  <p class="fs-3 mt-5"><b>Browse by types</b></p>
+  <center>
+    <p class="fs-2 mt-5"><b>Browse by types</b></p>
+    <p class="fs-5 mb-5">Dive into the diverse world of browsing! explore and enjoy!</p>
+  </center>
 
-  <div class="d-flex">
-    
-    <div class="browse-by-type card mb-5 w-25">
-      <a href="browse-by-types.php?type=Mamals" class="text-decoration-none text-dark">
-        <div class="card-body rounded" style="background-color: #F6EFE5;">
-        <p>Mamals</p>
-        <img src="img/capibara.jpg" alt="hewan.jpg" class="rounded-2" style="width: 170px; height: 170px;">
-      </div>
+  <div class="d-flex justify-content-between px-5 mx-5">
+    <div class="card mb-5">
+      <a href="browse-by-types.php?type=Mamals" class="text-decoration-none text-dark h-100"
+        style="background-color: #F6EFE5;">
+        <div class="card-body rounded">
+          <div class="img-container">
+            <img src="img/mamals.jpg" alt="hewan.jpg" class="rounded-2" style="width: 250px; height: 170px;">
+          </div>
+          <p class="fs-4 pt-3" style="font-family: 'Poppins', sans-serif;"><b>Mamals</b></p>
+          <p style="width: 250px; font-size: 14px;">Warm-blooded, fur-covered, milk-producing animals that give birth to
+            live young</p>
+          <p class="btn text-light w-100 py-2" style="background-color: #5B4608;">Search me!</p>
+        </div>
       </a>
     </div>
 
-    <div class="browse-by-type card mb-5 mx-2 w-25">
-    <a href="browse-by-types.php?type=Amphibia" class="text-decoration-none text-dark">  
-    <div class="card-body rounded" style="background-color: #F6EFE5;">
-        <p>Amphibia</p>
-        <img src="img/amphibians.jpg" alt="hewan.jpg" class="rounded-2" style="width: 170px; height: 170px;">
-      </div>
+    <div class="card mb-5">
+      <a href="browse-by-types.php?type=Amphibia" class="text-decoration-none text-dark h-100"
+        style="background-color: #F6EFE5;">
+        <div class="card-body rounded">
+          <div class="img-container">
+            <img src="img/amphibia.jpg" alt="hewan.jpg" class="rounded-2" style="width: 250px; height: 170px;">
+          </div>
+          <p class="fs-4 pt-3" style="font-family: 'Poppins', sans-serif;"><b>Amphibians</b></p>
+          <p style="width: 250px; font-size: 14px;">Cold-blooded, typically moist-skinned vertebrates undergo water-to-land metamorphosis</p>
+          <p class="btn text-light w-100 py-2" style="background-color: #5B4608;">Search me!</p>
+        </div>
       </a>
     </div>
 
-    <div class="browse-by-type card mb-5 mx-2 w-25">
-    <a href="browse-by-types.php?type=Reptile" class="text-decoration-none text-dark">  
-    <div class="card-body rounded" style="background-color: #F6EFE5;">
-        <p>Reptile</p>
-        <img src="img/komodo.jpg" alt="hewan.jpg" class="rounded-2" style="width: 170px; height: 170px;">
-      </div>
+    <div class="card mb-5">
+      <a href="browse-by-types.php?type=Pisces" class="text-decoration-none text-dark h-100"
+        style="background-color: #F6EFE5;">
+        <div class="card-body rounded">
+          <div class="img-container">
+            <img src="img/pisces.jpg" alt="hewan.jpg" class="rounded-2" style="width: 250px; height: 170px;">
+          </div>
+          <p class="fs-4 pt-3" style="font-family: 'Poppins', sans-serif;"><b>Pisces</b></p>
+          <p style="width: 250px; font-size: 14px;">Aquatic vertebrates characterized by gills, fins for movement, and
+            typically covered in scales.</p>
+          <p class="btn text-light w-100 py-2" style="background-color: #5B4608;">Search me!</p>
+        </div>
       </a>
     </div>
 
-    <div class="browse-by-type card mb-5 mx-2 w-25">
-    <a href="browse-by-types.php?type=Aves" class="text-decoration-none text-dark">  
-    <div class="card-body rounded" style="background-color: #F6EFE5;">
-        <p>Aves</p>
-        <img src="img/bird.jpg" alt="hewan.jpg" class="rounded-2" style="width: 170px; height: 170px;">
-      </div>
+
+  </div>
+
+  <div class="d-flex justify-content-between mb-5">
+    <div class="card mb-5">
+      <a href="browse-by-types.php?type=Aves" class="text-decoration-none text-dark h-100"
+        style="background-color: #F6EFE5;">
+        <div class="card-body rounded">
+          <div class="img-container">
+            <img src="img/aves.jpg" alt="hewan.jpg" class="rounded-2" style="width: 250px; height: 170px;">
+          </div>
+          <p class="fs-4 pt-3" style="font-family: 'Poppins', sans-serif;"><b>Aves</b></p>
+          <p style="width: 250px; font-size: 14px;">Warm-blooded, feathered vertebrates with beaks, wings for flight,
+            and lay hard-shelled eggs.</p>
+          <p class="btn text-light w-100 py-2" style="background-color: #5B4608;">Search me!</p>
+        </div>
       </a>
     </div>
 
-    <div class="browse-by-type card mb-5 mx-2 w-25">
-    <a href="browse-by-types.php?type=Pisces" class="text-decoration-none text-dark">  
-    <div class="card-body rounded" style="background-color: #F6EFE5;">
-        <p>Pisces</p>
-        <img src="img/fish.jpg" alt="hewan.jpg" class="rounded-2" style="width: 170px; height: 170px;">
-      </div>
+    <div class="card mb-5">
+      <a href="browse-by-types.php?type=Reptile" class="text-decoration-none text-dark h-100"
+        style="background-color: #F6EFE5;">
+        <div class="card-body rounded">
+          <div class="img-container">
+            <img src="img/reptile.jpg" alt="hewan.jpg" class="rounded-2" style="width: 250px; height: 170px;">
+          </div>
+          <p class="fs-4 pt-3" style="font-family: 'Poppins', sans-serif;"><b>Reptile</b></p>
+          <p style="width: 250px; font-size: 14px;">Cold-blooded, scaly-skinned vertebrates that lay eggs and have lungs
+            for breathing air</p>
+          <p class="btn text-light w-100 py-2" style="background-color: #5B4608;">Search me!</p>
+        </div>
       </a>
     </div>
 
-    <div class="browse-by-type card mb-5 mx-2 w-25">
-    <a href="browse-by-types.php?type=Invertebrata" class="text-decoration-none text-dark">  
-    <div class="card-body rounded" style="background-color: #F6EFE5;">
-        <p>Invetebrates</p>
-        <img src="img/gurita.jpg" alt="hewan.jpg" class="rounded-2" style="width: 170px; height: 170px;">
-      </div>
+    <div class="card mb-5">
+      <a href="browse-by-types.php?type=Invertebrata" class="text-decoration-none text-dark h-100"
+        style="background-color: #F6EFE5;">
+        <div class="card-body rounded">
+          <div class="img-container">
+            <img src="img/invertebrates.jpg" alt="hewan.jpg" class="rounded-2" style="width: 250px; height: 170px;">
+          </div>
+          <p class="fs-4 pt-3" style="font-family: 'Poppins', sans-serif;"><b>Invetebrates</b></p>
+          <p style="width: 250px; font-size: 14px;">Backbone-free animals like insects, mollusks, and arachnids, known for diverse body structures</p>
+          <p class="btn text-light w-100 py-2" style="background-color: #5B4608;">Search me!</p>
+        </div>
       </a>
     </div>
   </div>

@@ -11,15 +11,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
-  
+
   <style>
-    body{
+    body {
       display: flex;
       flex-direction: column;
     }
-    
+
+    .img-container {
+      overflow: hidden;
+    }
+
+    .img-container img {
+      filter: grayscale(.4);
+      transition: 1s;
+    }
+
+    .img-container img:hover {
+      filter: grayscale(0);
+      transform: scale(1.3);
+    }
+
     .browse-by-type {
-      transition: transform 0.3s ease-in-out;
+      transition: transform 0.3s ease;
     }
 
     .browse-by-type:hover {
@@ -38,7 +52,24 @@
       transform: scale(1.02);
     }
 
-    /* *{
+    .tabcontent {
+      display: none;
+      border: 1px solid #F09306; 
+    }
+
+    .tablink {
+      background-color: #F6EFE5;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .active {
+      background-color: #F09306;
+      color: #F6EFE5;
+    }
+/* 
+    *{
       border: 2px solid red;
     } */
   </style>

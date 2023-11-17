@@ -15,7 +15,7 @@
 
       <animal:id>1</animal:id>
       <animal:image>
-        https://cloudfront-us-east-2.images.arcpublishing.com/reuters/4DONYWDQTFIEXC42Z2R6MSBX5Y.jpg</animal:image>
+        https://www.pennlive.com/resizer/EXhNwZKAC9DnLADGuTCpdnSu2ic=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/NAINUMMVZFDMXHKZFLLWYU6JPY.jpeg</animal:image>
       <animal:comment>
         Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on
         the sides of the head, and pectoral fins that are not fused to the head. Modern sharks are classified within the
@@ -208,8 +208,7 @@
       <rdfs:name>Koi fish</rdfs:name>
 
       <animal:id>6</animal:id>
-      <animal:image>https://t4.ftcdn.net/jpg/01/83/20/79/360_F_183207930_JUwSWMNSWneDKXdLw0iknR2spXHO3qaC.jpg
-      </animal:image>
+      <animal:image>https://t4.ftcdn.net/jpg/01/83/20/79/360_F_183207930_JUwSWMNSWneDKXdLw0iknR2spXHO3qaC.jpg</animal:image>
       <animal:comment>
         Koi (鯉, English: /ˈkɔɪ/, Japanese: [koꜜi]) or more specifically nishikigoi (錦鯉, Japanese: [ɲiɕi̥kiꜜɡoi],
         literally "brocaded carp"), are colored varieties of the Amur carp (Cyprinus rubrofuscus) that are kept for
@@ -228,7 +227,7 @@
         which is made up of the Kōhaku, Taishō Sanshoku and Shōwa Sanshoku varieties.
       </animal:detail>
 
-<animal:type>Pisces</animal:type>
+      <animal:type>Pisces</animal:type>
       <animal:taxon>Carp</animal:taxon>
       <animal:phylum>Chordata</animal:phylum>
       <animal:class>Actinopterygii</animal:class>
