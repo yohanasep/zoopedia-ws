@@ -22,34 +22,32 @@
       overflow: hidden;
     }
 
+    .card:hover .img-container img {
+      filter: grayscale(0);
+      transform: scale(1.2);
+    }
+
     .img-container img {
       filter: grayscale(.4);
-      transition: 1s;
-    }
-
-    .img-container img:hover {
-      filter: grayscale(0);
-      transform: scale(1.3);
-    }
-
-    .browse-by-type {
-      transition: transform 0.3s ease;
-    }
-
-    .browse-by-type:hover {
-      transform: scale(1.05);
+      transition: 0.5s;
     }
 
     .navbar-brand:hover {
-      font-weight: 600;
+      font-weight: 700;
     }
 
     .img-thumbnail {
-      transition: transform 0.3s ease-out;
+      overflow: hidden;
     }
 
-    .img-thumbnail:hover {
-      transform: scale(1.02);
+    .img-thumbnail img {
+      filter: grayscale(.2);
+      transition: 0.2s;
+    }
+
+    .img-thumbnail img:hover {
+      filter: grayscale(0);
+      transform: scale(1.05);
     }
 
     .tabcontent {
@@ -68,17 +66,30 @@
       background-color: #F09306;
       color: #F6EFE5;
     }
-/* 
-    *{
-      border: 2px solid red;
-    } */
+
+    .hasilsearch {
+      height: 100%;
+      display: none;
+    }
+
+    .searchTab {
+      background-color: rgba(246, 239, 229, 0.39);
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .activeTab {
+      border-bottom: 4px solid #F09306;
+      color: #F09306;
+    }
   </style>
 </head>
 
 <body class="min-vh-100"
   style="background: linear-gradient(180deg, rgba(246, 239, 229, 0.87) 0%, rgba(246, 239, 229, 0.77) 63%, rgba(246, 239, 229, 0.39) 100%)">
   <nav class="navbar bg-none container border-bottom border-3">
-    <a class="navbar-brand" href="landing-page.php">
+    <a class="navbar-brand fw-bolder" href="landing-page.php" style="color: #5B4608;">
       <img src="img/lion.png" alt="Logo" width="50" height="60" class="d-inline-block align-text">
       ZOOPEDIA
     </a>

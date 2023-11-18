@@ -10,9 +10,13 @@ $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
 
 <div class="container">
 
-    <button onclick="goBack()" class="border-0 bg-transparent">
-        <i class="fa-solid fa-arrow-left mt-5 rounded-circle p-2"
-            style="background-color: #5B4608; color: #F6EFE5;"></i></button>
+    <div class="d-flex mt-4">
+        <button onclick="goBack()" class="border-0 bg-transparent">
+        <i class="fa-solid fa-arrow-left rounded-circle p-2"
+            style="background-color: #5B4608; color: #F6EFE5;"></i>
+        </button>
+        <p class="fs-3 fw-medium mt-3 ms-3" style="font-family: 'poppins', sans-serif;"><?=$_GET['type']?></p>
+    </div>
 
     <?php
     $getType = $_GET['type'];
@@ -53,7 +57,7 @@ $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
             ];
             ?>
 
-            <div class="card my-5 border-2 rounded-4">
+            <div class="card mb-5 mt-4 border-2 rounded-4">
                 <div class="card-body rounded-4" style="background-color: #F6EFE5;">
                     <div class="row p-3">
                         <div class="col-3">
@@ -101,48 +105,49 @@ $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
 
                                         <div class="w-100 h-100 p-2 px-4"
                                             style="background-color:#F6EFE5; color: #5B4608; font-size: 14px;">
-                                            <div class="overflow-auto w-100 py-2" style="max-height: 200px;">
+                                            <div class="overflow-auto w-100 py-2" style="height: 200px;">
                                                 <?= $detail['detail'] ?>
                                             </div>
                                         </div>
-                                        <div class="overflow-auto w-100 h-100 p-2 px-4" style="background-color:#F6EFE5; color: #5B4608; max-height: 120px;">
+                                        <div class="w-100 h-100 p-2 px-4" style="background-color:#F6EFE5; color: #5B4608;">
                                             <!-- line -->
                                             <div style="height: 1.5px; background-color: #5B4608;"></div>
                                             <!-- line -->
 
+                                            <div class="overflow-auto" style="max-height: 105px;">
                                             <div class="tab mt-2">
-                                                <button class="tablink rounded-top-2" onclick="openTab('showTab1')">Taxon</button>
-                                                <button class="tablink rounded-top-2" onclick="openTab('showTab2')">Phylum</button>
-                                                <button class="tablink rounded-top-2" onclick="openTab('showTab3')">Class</button>
-                                                <button class="tablink rounded-top-2" onclick="openTab('showTab4')">Order</button>
-                                                <button class="tablink rounded-top-2" onclick="openTab('showTab5')">Family</button>
-                                                <button class="tablink rounded-top-2" onclick="openTab('showTab6')">Genus</button>
+                                                <button class="tablink rounded-top-2" onclick="openTab('showTab<?=$detail['id']?>_taxon')">Taxon</button>
+                                                <button class="tablink rounded-top-2" onclick="openTab('showTab<?=$detail['id']?>_phylum')">Phylum</button>
+                                                <button class="tablink rounded-top-2" onclick="openTab('showTab<?=$detail['id']?>_class')">Class</button>
+                                                <button class="tablink rounded-top-2" onclick="openTab('showTab<?=$detail['id']?>_order')">Order</button>
+                                                <button class="tablink rounded-top-2" onclick="openTab('showTab<?=$detail['id']?>_family')">Family</button>
+                                                <button class="tablink rounded-top-2" onclick="openTab('showTab<?=$detail['id']?>_genus')">Genus</button>
                                             </div>
 
-                                            <div id="showTab1" class="tabcontent rounded-bottom-2">
+                                            <div id="showTab<?=$detail['id']?>_taxon" class="tabcontent rounded-bottom-2">
                                             <p class="p-2"><?=$detail['taxon']?></p>
                                             </div>
 
-                                            <div id="showTab2" class="tabcontent rounded-2">
+                                            <div id="showTab<?=$detail['id']?>_phylum" class="tabcontent rounded-2">
                                             <p class="p-2"><?=$detail['phylum']?></p> 
                                             </div>
 
-                                            <div id="showTab3" class="tabcontent rounded-2">
+                                            <div id="showTab<?=$detail['id']?>_class" class="tabcontent rounded-2">
                                             <p class="p-2"><?=$detail['class']?></p>
                                             </div>
 
-                                            <div id="showTab4" class="tabcontent rounded-2">
-                                            <p class="p-2">L<?=$detail['order']?></p>
+                                            <div id="showTab<?=$detail['id']?>_order" class="tabcontent rounded-2">
+                                            <p class="p-2"><?=$detail['order']?></p>
                                             </div>
 
-                                            <div id="showTab5" class="tabcontent rounded-2">
+                                            <div id="showTab<?=$detail['id']?>_family" class="tabcontent rounded-2">
                                             <p class="p-2"><?=$detail['family']?></p> 
                                             </div>
 
-                                            <div id="showTab6" class="tabcontent rounded-2">
+                                            <div id="showTab<?=$detail['id']?>_genus" class="tabcontent rounded-2">
                                             <p class="p-2"><?=$detail['genus']?></p>
                                             </div>
-
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -184,7 +189,6 @@ $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
         document.getElementById(showTabID).style.display = "block";
         event.currentTarget.classList.add("active");
     }
-
 </script>
 
 <?php
