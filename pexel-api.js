@@ -4,7 +4,6 @@ $(document).ready(function() {
     var api_key = "2yYFECDQGdXit2y1BQiMK2pmrvt4tc5YRVEnhsS9VuTyg0yMuuCzq1Im";
     var search;
     var image = '';
-    var detailsOfAnimal = '';
 
     function getParameterByName(name, url) {
         if (!url) url = window.location.href;

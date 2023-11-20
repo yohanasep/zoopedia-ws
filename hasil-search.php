@@ -27,21 +27,22 @@ endif;
 ?>
 
 <div style="background: linear-gradient(360deg, rgba(119, 89, 45, 0.70) 0%, rgba(119, 89, 45, 0.46) 77%)">
-<div class="d-flex justify-content-center">
-<form method="GET" action="" class="p-4 w-75" id="form">
-        <div class="input-group mt-5">
-            <input type="text" class="form-control rounded-start-5 ps-4 border-0 py-2" placeholder="Search Animal"
-                aria-label="Recipient's username" aria-describedby="basic-addon2" value="<?= $getAnimal ?>"
-                name="searchAnimal" id="speechToText">
-            <button class="input-group-text bg-white rounded-end-5 me-2 ps-4 border-0 py-2" type="submit" >
-                <i class="fa-solid fa-magnifying-glass" style="color: #5B4608;" id="basic-addon2"></i>
-            </button>
-            <div class="input-group-text bg-white rounded-circle border-0" style="padding-inline: 14px; cursor: pointer;" onclick="recordSearch()">
-                <i class="fa-solid fa-microphone-lines" style="color: #5B4608;"></i>
+    <div class="d-flex justify-content-center">
+        <form method="GET" action="" class="p-4 w-75" id="form">
+            <div class="input-group mt-5">
+                <input type="text" class="form-control rounded-start-5 ps-4 border-0 py-2" placeholder="Search Animal"
+                    aria-label="Recipient's username" aria-describedby="basic-addon2" value="<?= $getAnimal ?>"
+                    name="searchAnimal" id="speechToText">
+                <button class="input-group-text bg-white rounded-end-5 me-2 ps-4 border-0 py-2" type="submit">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #5B4608;" id="basic-addon2"></i>
+                </button>
+                <div class="input-group-text bg-white rounded-circle border-0"
+                    style="padding-inline: 14px; cursor: pointer;" onclick="recordSearch()">
+                    <i class="fa-solid fa-microphone-lines" style="color: #5B4608;"></i>
+                </div>
             </div>
-        </div>
-    </form>
-</div>    
+        </form>
+    </div>
 
     <p class="text-center text-light text-bold pb-4 fs-4"><span class="fs-5">Pencarian:</span> <b>
             <?= $getAnimal ?>
@@ -59,7 +60,7 @@ endif;
           ?animal foaf:isPrimaryTopicOf ?wikped. 
           FILTER langMatches(lang(?name), "EN").
           FILTER langMatches(lang(?comment), "EN").
-          FILTER (?name = "'.$getAnimal2.'"@en) .
+          FILTER (?name = "' . $getAnimal2 . '"@en) .
           OPTIONAL {
             ?animal dbo:thumbnail ?img.
           }
@@ -77,56 +78,55 @@ endif;
                     "wikped" => $row->wikped ?? null,
                 ];
 
-        if(!empty($detail['wikped']))
-        {
-            \EasyRdf\RdfNamespace::setDefault('og');
-            $wikped= \EasyRdf\Graph::newAndLoad($detail['wikped']);
-            $thumbnail = $wikped->image;
-            if ($thumbnail == null){
-                $thumbnail = $detail['img'];
-            }
-        }
-        else {
-            $thumbnail = "img/defaul.jpg";
-        }
-            
+                if (!empty($detail['wikped'])) {
+                    \EasyRdf\RdfNamespace::setDefault('og');
+                    $wikped = \EasyRdf\Graph::newAndLoad($detail['wikped']);
+                    $thumbnail = $wikped->image;
+                    if ($thumbnail == null) {
+                        $thumbnail = $detail['img'];
+                    }
+                } else {
+                    $thumbnail = "img/defaul.jpg";
+                }
+
                 ?>
 
-            <div class="overflow-auto">
-                <div class="tab mt-4">
-                    <button class="searchTab activeTab fw-medium" onclick="openTab('showTab_hasil')">Results</button>
-                    <button class="searchTab fw-medium" onclick="openTab('showTab_gallery')">Gallery</button>
-                </div>
+                <div class="overflow-auto">
+                    <div class="tab mt-4">
+                        <button class="searchTab activeTab fw-medium" onclick="openTab('showTab_hasil')">Results</button>
+                        <button class="searchTab fw-medium" onclick="openTab('showTab_gallery')">Gallery</button>
+                    </div>
 
-                <div id="showTab_hasil" class="hasilsearch rounded-bottom-2">
-            
-                <div class="card mb-5 mt-2 border-2 rounded-4">
-                    <div class="card-body rounded-4" style="background-color: #F6EFE5;">
-                        <div class="row gap-4">
-                            <div class="col-3 border-0 img-thumbnail" style="width: 200px; height: 200px; background: none;">
-                                <img src="<?=$thumbnail?>" alt="thumbnail" class="rounded-4 me-3 border-0"
-                                    style="width: 200px; height: 200px; background: none;">
-                            </div>
-                            <div class="col-9">
-                                <h4 class="card-title">
-                                    <?= $detail['nama'] ?>
-                                </h4>
-                                <p class="card-text">
-                                    <?= $detail['comment'] ?>
-                                </p>
+                    <div id="showTab_hasil" class="hasilsearch rounded-bottom-2">
 
-                                <div class="mt-4" id="buttonDetail">
-                                    <a href="detail.php?link=<?= $detail['link'] ?>" class="btn text-light px-5" id="animalDetail"
-                                    style="background-color: #5B4608;">
-                                    Details
-                                    </a>
+                        <div class="card mb-5 mt-2 border-2 rounded-4">
+                            <div class="card-body rounded-4" style="background-color: #F6EFE5;">
+                                <div class="row gap-4">
+                                    <div class="col-3 border-0 img-thumbnail"
+                                        style="width: 200px; height: 200px; background: none;">
+                                        <img src="<?= $thumbnail ?>" alt="thumbnail" class="rounded-4 me-3 border-0"
+                                            style="width: 200px; height: 200px; background: none;">
+                                    </div>
+                                    <div class="col-9">
+                                        <h4 class="card-title">
+                                            <?= $detail['nama'] ?>
+                                        </h4>
+                                        <p class="card-text">
+                                            <?= $detail['comment'] ?>
+                                        </p>
+
+                                        <div class="mt-4" id="buttonDetail">
+                                            <a href="detail.php?link=<?= $detail['link'] ?>" class="btn text-light px-5"
+                                                id="animalDetail" style="background-color: #5B4608;">
+                                                Details
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
-            <?php endforeach; ?>
-            </div>
                 <div id="showTab_gallery" class="hasilsearch rounded-bottom-2">
                     <div id="gallery-animal" class="my-3 mb-5 d-flex justify-content-between">
 

@@ -85,8 +85,8 @@ $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
                                     style="top: 0; left: 0; backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); background-color: black; opacity: 0.8;">
                                 </div>
 
-                                <div class="d-flex grid-col-2 bg-white justify-content-between align-items-start position-absolute rounded-4 overflow-auto float w-100 z-3"
-                                    style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                <div class="d-flex grid-col-2 bg-white justify-content-between align-items-start position-fixed rounded-4 overflow-auto float z-3"
+                                    style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 90%;">
                                     <div class="position-relative"><img src="<?= $detail['img'] ?>" alt=""
                                             style="width: 650px; height: 400px;"></div>
 
@@ -168,8 +168,10 @@ $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
 
         if (modal.classList.contains('visually-hidden')) {
             modal.classList.remove('visually-hidden')
+            document.body.style.overflow = "hidden";
         } else {
             modal.classList.add('visually-hidden')
+            document.body.style.overflow = "auto";
         }
     }
 

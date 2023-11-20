@@ -1,6 +1,5 @@
 <?php
 include 'tata_letak/navbar.php';
-
 ?>
 
 <div
@@ -130,6 +129,5 @@ include 'tata_letak/navbar.php';
     </div>
   </div>
 </div>
-
 
 <?php include 'tata_letak/footer.php' ?>
