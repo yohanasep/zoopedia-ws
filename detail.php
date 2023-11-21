@@ -50,11 +50,12 @@ if(isset($_GET['link'])):
             $wikped= \EasyRdf\Graph::newAndLoad($detail['wikped']);
             $thumbnail = $wikped->image;
             $thumbnail = $wikped->image;
-        }
-        else if(!empty($detail['img'])){
-            $thumbnail = $detail['img'];
-        } else {
-            $thumbnail = "img/defaul.jpg";
+
+            if ($thumbnail == null) {
+                $thumbnail = $detail['img'];
+            }  else {
+                $thumbnail = "img/default.png";
+            }
         }
 
     endforeach; endif;

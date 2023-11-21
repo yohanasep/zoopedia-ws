@@ -22,18 +22,18 @@ $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
     $getType = $_GET['type'];
     $sparql_query = 'SELECT * WHERE {
     ?animal rdf:type animal:Description;
-      rdfs:name ?nama;
-      animal:comment ?comment;
-      animal:detail ?detail;
-      animal:image ?img;
-      animal:id ?id;
-      animal:type ?type;
-      animal:taxon ?taxon;
-      animal:phylum ?phylum;
-      animal:class ?class;
-      animal:order ?order;
-      animal:family ?family;
-      animal:genus ?genus;
+            rdfs:name ?nama;
+            animal:comment ?comment;
+            animal:detail ?detail;
+            animal:image ?img;
+            animal:id ?id;
+            animal:type ?type;
+            animal:taxon ?taxon;
+            animal:phylum ?phylum;
+            animal:class ?class;
+            animal:order ?order;
+            animal:family ?family;
+            animal:genus ?genus;
     FILTER(?type = "' . $getType . '").
     }';
 

@@ -82,11 +82,12 @@ endif;
                     \EasyRdf\RdfNamespace::setDefault('og');
                     $wikped = \EasyRdf\Graph::newAndLoad($detail['wikped']);
                     $thumbnail = $wikped->image;
+                    
                     if ($thumbnail == null) {
                         $thumbnail = $detail['img'];
+                    }  else {
+                        $thumbnail = "img/default.png";
                     }
-                } else {
-                    $thumbnail = "img/defaul.jpg";
                 }
 
                 ?>
