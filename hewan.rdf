@@ -907,7 +907,7 @@
       <animal:order>Gymnophiona</animal:order>
       <animal:family>Typhlonectidae, Scolecomorphidae, Caeciliidae, Dermophiidae, Grandisoniidae, Herpelidae,
         Ichthyophiidae</animal:family>
-      <animal:genus></animal:genus>
+      <animal:genus>Amphibia</animal:genus>
     </animal:Description>
 
     <animal:Description rdf:about="http://dbpedia.org/resource/Toad">
