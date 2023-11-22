@@ -17,7 +17,7 @@
         recognition.lang = "en-GB";
 
         recognition.onresult = function (event) {
-            var result = event.results[0][0].transcript; // Corrected accessing the recognized text
+            var result = event.results[0][0].transcript;
             document.getElementById('speechToText').value = result;
         }
 

@@ -23,11 +23,6 @@ if(isset($_GET['link'])):
         '<' . $getLink .'> ' . 'dbo:abstract ?abstract.' .
         '<' . $getLink .'> ' . 'dbo:thumbnail ?img.' .
         '<' . $getLink .'> ' . 'foaf:isPrimaryTopicOf ?wikped.' .
-        'OPTIONAL { ' .
-            '<' . $getLink . '>' . 'dbp:species ?species. ' .
-            '<' . $getLink . '>' . 'dbp:parent ?parent. ' .
-            '<' . $getLink . '>' . 'dbp:taxon ?taxon. ' .
-        '}' .
         'FILTER langMatches (lang(?name), "EN") .' .
         'FILTER langMatches (lang(?abstract), "EN") .' .
         '}';    
@@ -40,7 +35,6 @@ if(isset($_GET['link'])):
             "nama" => $row->name ?? null,
             "abstract" => $row->abstract ?? null,
             "img" => $row->img ?? null,
-            "taxon" => $row->taxon ?? null,
             "wikped" => $row->wikped ?? null,
         ];
 
@@ -53,9 +47,9 @@ if(isset($_GET['link'])):
 
             if ($thumbnail == null) {
                 $thumbnail = $detail['img'];
-            }  else {
-                $thumbnail = "img/default.png";
-            }
+            } 
+        } else {
+            $thumbnail = "img/default.png";
         }
 
     endforeach; endif;
@@ -81,7 +75,8 @@ if(isset($_GET['link'])):
 
     <div>
         <p class="fw-semibold fs-5 mt-4">Abstract</p>
-        <?= $detail['abstract'] ?>
+        <?= $detail['abstract']; ?>
+        
     </div>
 
     <div class="fw-semibold mt-4 pt-2">
