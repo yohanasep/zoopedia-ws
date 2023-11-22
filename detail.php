@@ -25,7 +25,12 @@ if(isset($_GET['link'])):
         '<' . $getLink .'> ' . 'foaf:isPrimaryTopicOf ?wikped.' .
         'FILTER langMatches (lang(?name), "EN") .' .
         'FILTER langMatches (lang(?abstract), "EN") .' .
-        '}';    
+        'OPTIONAL {<' . $getLink .'>  dbp:species ?species} .' .
+        'OPTIONAL {<' . $getLink .'>  dbp:parent ?parent} .' .
+        'OPTIONAL {<' . $getLink .'>  dbp:taxon ?taxon} .' .
+        'OPTIONAL {<' . $getLink .'>  dbp:genus ?genus} .' .
+        'OPTIONAL {<' . $getLink .'>  dbp:subdivision ?subdivision} .' .
+        '}';   
 
     $result = $sparql->query($sparql_query);
     
@@ -35,6 +40,11 @@ if(isset($_GET['link'])):
             "nama" => $row->name ?? null,
             "abstract" => $row->abstract ?? null,
             "img" => $row->img ?? null,
+            "species" => $row->species ?? null,
+            "parent" => $row->parent ?? null,
+            "taxon" => $row->taxon ?? null,
+            "genus" => $row->genus ?? null,
+            "subdivision" => $row->subdivision ?? null,
             "wikped" => $row->wikped ?? null,
         ];
 
@@ -73,13 +83,53 @@ if(isset($_GET['link'])):
         </center>
     </div>
 
-    <div>
+    <div style="text-align: justify; text-justify: inter-word;">
         <p class="fw-semibold fs-5 mt-4">Abstract</p>
-        <?= $detail['abstract']; ?>
-        
+        <p><?= $detail['abstract']; ?></p>
     </div>
 
-    <div class="fw-semibold mt-4 pt-2">
+    <hr>
+
+    <?php
+    if(!empty($detail['species']) && $detail['species'] != NULL){
+        echo '
+        <div class="mt-2">
+        <p><span class="fw-semibold">Species</span>: ' . $detail['species'] .'</p> 
+        </div>
+        ';
+    }
+    if(!empty($detail['taxon']) && $detail['taxon'] != NULL){
+        echo '
+        <div class="mt-2">
+        <p><span class="fw-semibold">Taxon</span>: ' . $detail['taxon'] .'</p> 
+        </div>
+        ';
+    }
+    if(!empty($detail['genus']) && $detail['genus'] != NULL){
+        echo '
+        <div class="mt-2">
+        <p><span class="fw-semibold">Genus</span>: ' . $detail['genus'] .'</p> 
+        </div>
+        ';
+    }
+    if(!empty($detail['parent']) && $detail['parent'] != NULL){
+        echo '
+        <div class="mt-2">
+        <p><span class="fw-semibold">Parent</span>: ' . $detail['parent'] .'</p> 
+        </div>
+        ';
+    }
+    if(!empty($detail['subdivision']) && $detail['subdivision'] != NULL){
+        echo '
+        <div class="mt-2">
+        <p><span class="fw-semibold">Subdivision</span>: ' . $detail['subdivision'] .'</p> 
+        </div>
+        ';
+    }
+    ?>
+
+    <hr>
+    <div class="fw-semibold mt-4">
         <p style="font-size: 18px;">Baca Selengkapnya</p> 
         <ul>
             <li>DBPedia: <a href="<?= $getLink ?>"><?= $getLink ?></a></li>

@@ -112,7 +112,7 @@ endif;
                                         <h4 class="card-title">
                                             <?= $detail['nama'] ?>
                                         </h4>
-                                        <p class="card-text">
+                                        <p class="card-text" style="text-align: justify; text-justify: inter-word;">
                                             <?= $detail['comment'] ?>
                                         </p>
 

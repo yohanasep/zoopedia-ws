@@ -68,7 +68,7 @@ $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
                             <h4 class="card-title">
                                 <?= $detail['nama'] ?>
                             </h4>
-                            <p class="card-text">
+                            <p class="card-text" style="text-align: justify; text-justify: inter-word;">
                                 <?= $detail['comment'] ?>
                             </p>
 
@@ -105,7 +105,7 @@ $sparql_jena = new \EasyRdf\Sparql\Client('http://localhost:3030/hewan/sparql');
 
                                         <div class="w-100 h-100 p-2 px-4"
                                             style="background-color:#F6EFE5; color: #5B4608; font-size: 14px;">
-                                            <div class="overflow-auto w-100 py-2" style="height: 200px;">
+                                            <div class="overflow-auto w-100 p-2 pe-4" style="height: 200px; text-align: justify; text-justify: inter-word;">
                                                 <?= $detail['detail'] ?>
                                             </div>
                                         </div>
